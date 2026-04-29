@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="EW01gm_HEES_PUjDwP7lgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Firefox" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4T6WTT0jUURDHZ+b9dJXdzIsQFQXJmkJ0qCACgw5dIoqC2GMReMiKEBX9/faP1LruuixtJ12sQ2F16tihDtJGCGmnDhlFSxcLIzXRddN1971pfmt7iW77To83M5/5zve9h1DjwhrroXbAcDzxAhj9gtrNzI/b/a3XA4GAHo6PZgF4MRJ0AlWVsdHRTmPgGTDvAsRvpPAiRkcSjAjLAJgVwCUJpIeCdt/2ORYiQdvnArLZrDX9dnaLAeYB+Q4wXCbCuxUAIYbCQTsuXcuS+1GKDouyX6LsZyRkt7uAdDrduL5R/E2Aj8Ih+2pVlQvIixGr0nlJFLSiRccig4Of/yrIC6ypmiwNxiWnWxRPSdeeIdueQzlccxNE2orMtg8J7IjjJGPxZI8cL4ecgScyioS3VyyRvGaMybh7RHW2MoJsnw+F7PPRROIoMh7pPHH84fTMOweMaYyEnOD/rlrqii7YBUyQRQ/EsVXQ+oLRlr+jbf/NT19yRQEDEXW7AGLrlYbSiBg4UU80WyybNanJYSo16V3ZzHcZpl5GtceDm1ei4VtPnWjmJaI+xYyebZA6yUYPAOpzKAMzWN/rlTqNk6l+b57Lfo+1td7VO577V+7Y2G0fFAq+GwOpH27sXjLcoRW39PePvKn48Pp+25k64AVGbrCgDAZVszYsj4rek6UKhnknGVMg0l7UjCVoKgHULSCtHtxrlWdwKnOoD5iWFKk5DaZVrC2igWZm7ZV5GwjUPCJ9lRfYYojrFesD4t1G2dAOiX2o/S/U+hv/AAaWC9XdQaiHAAAAAElFTkSuQmCC" Selector="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" Title="UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK" Url="https://uk.blsspainglobal.com/Global/home/index" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="3c694d0047afe7ecc60d1355e05c187f.png" xmlns="">0JyIOZMuOlUeenaFGhIwpTw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

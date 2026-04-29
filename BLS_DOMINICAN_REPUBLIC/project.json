@@ -4,6 +4,7 @@
   "description": "this is a automation for the dominican republic appointment book",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Mail.Activities": "[2.8.10]",
     "UiPath.System.Activities": "[26.2.4]",
     "UiPath.UIAutomation.Activities": "[25.10.28]"
   },
@@ -34,6 +35,7 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
+      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {

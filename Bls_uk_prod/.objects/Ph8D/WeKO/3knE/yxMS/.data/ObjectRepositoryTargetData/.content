@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eLnvw491HUu5hRN1NsrIXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvElementArea="545, 445, 417, 41" CvType="InputBox" DesignTimeRectangle="547, 447, 415, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserId10' tag='INPUT' type='text' class='form-control entry-disabled' aaname='Email*' /&gt;" Guid="0c207d0f-f629-411c-a914-40722ff1ac2f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 418, 54, 16" CvTextArgument="Email *" CvType="Text" DesignTimeRectangle="547, 415, 52, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Email' check:innerText='Email*' /&gt;" Guid="3de29e23-a4ef-4b1e-83b2-aa1ff02f4ce4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="100262a2be8b08a89dd66909fd5b1282.png" xmlns="">0nuK69DVSxkq9UGgQwf7dGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

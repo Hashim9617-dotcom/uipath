@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jtit99JFSUqkjv9GdTqceg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uk.blsspainglobal.com/Global/account/login" DesignTimeRectangle="547, 533, 415, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password1' tag='INPUT' type='password' class='form-control fakepassword entry-disabled' aaname='Password*' /&gt;" Guid="589c0005-e72f-4bd7-a3d3-10761bab6f56" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 504, 85, 15" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="547, 501, 83, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='form-label' check:innerText='Password*' /&gt;" Guid="10e2c00a-bdc8-418d-ac4d-97def0d20309" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80f847d7fd999fc33228304f53d878c9.png" xmlns="">0ezG-LG-xaEmFJ6ZFHVsO1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

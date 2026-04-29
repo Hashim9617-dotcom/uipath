@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EHeRlLislEWpy0o8rYl0qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvElementArea="709, 644, 89, 46" CvTextArea="727, 659, 53, 19" CvTextArgument="Verify" CvType="Button" DesignTimeRectangle="712, 647, 84, 42" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='button' class='btn btn-primary-soft' aaname='Verify' check:innerText='Verify' /&gt;" Guid="2e7d8325-203c-449f-ad42-edfb0cc20b33" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="056fb2d80a6bc3377393bd77b3fd113a.png" xmlns="">0_VOPf7IjM064WXcnKyH1pw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

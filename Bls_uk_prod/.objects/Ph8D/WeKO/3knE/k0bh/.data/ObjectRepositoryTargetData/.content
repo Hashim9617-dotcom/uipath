@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ycnxt-6r0EKdzecoxiTNww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="ccc57498-3a6a-48dd-9e17-a1b037c40c2a" CvElementArea="711, 738, 31, 26" CvType="Icon" DesignTimeRectangle="711, 735, 32, 32" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl src='/Global/CaptchaPublic/GenerateCaptcha?data=EjbTTcRnoU1XGHohrQ92%2fJ5ENM5DOusHPu3wR67c%2fvS%2bLCQXP77jBOULEzPLbJqU0D6Q80xq1vhdysAjNKEsUyZ3rnDqHXxoblaE0PWg4Ak%3d' tag='IFRAME' /&gt;&lt;webctrl id='submit' tag='I' type='' class='fa fa-check p-1 img-action img-active' aaname='' /&gt;" Guid="1db56295-6a66-4f28-b589-be0c150efabb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVFhH7dQxDoIwFMbxnkYHXfU0Jh7CxJgYBxcHBw+jgx7GA5BOyqQDPPPFBQr0tfAQhzf8F/oCv5S0hl53+qeM+2DoFMSlIC4FcSmI6zegNKHr8Umnc0Jvd82pf1BqaT0iMgZltLzUzBTqF1TCDA1KLW0neQFDNF7ZgX5ZSwySB3XAID8o4nR857thkBd0W2ThLxbAoGCQMTlNNw0fEMIgL6h6bGtQghjkByEfKrV0mBV3sRsG8SBUQWU03z1oL4xBYSBUQZWTwKBwEGpASWFQHAg5KEkMigeh2AszonagHlMQl4K4FMSlIK6/A30Ab7a8xiVN/+MAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="42f494c51c9a1b8b02fa3014527cbe04.png" xmlns="">0R7cql7EgOk-irWewsw85jg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
