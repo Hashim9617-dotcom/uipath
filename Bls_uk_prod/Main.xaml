@@ -99,19 +99,19 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,2387" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,2389" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox UK BLS Spain Visa Welcome to the Offi" sap:VirtualizedContainerService.HintSize="502,2364" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Firefox UK BLS Spain Visa Welcome to the Offi" sap:VirtualizedContainerService.HintSize="502,2366" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2124" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2126" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -156,6 +156,9 @@
                   </Sequence>
                 </ActivityAction>
               </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
               <p:CVScope.DesignTimeCacheContainer>
                 <uc:CvCacheContainer>
                   <uc:CvCacheContainer.Caches>
@@ -252,6 +255,9 @@
                   </Sequence>
                 </ActivityAction>
               </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
               <p:CVScope.DesignTimeCacheContainer>
                 <uc:CvCacheContainer>
                   <uc:CvCacheContainer.Caches>
@@ -299,7 +305,7 @@
               <uix:NSetText.Target>
                 <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" ContentHash="eLnvw491HUu5hRN1NsrIXg" CvElementArea="545, 445, 417, 41" CvType="InputBox" DesignTimeRectangle="547, 447, 415, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserId10' tag='INPUT' type='text' class='form-control entry-disabled' aaname='Email*' /&gt;" Guid="0c207d0f-f629-411c-a914-40722ff1ac2f" InformativeScreenshot="100262a2be8b08a89dd66909fd5b1282.png" IsResponsive="True" Reference="2InKtPWaUUKYWugxVQqIig/yxMSYxKUs0ukSb0zzQLdNw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 418, 54, 16" CvTextArgument="Email *" CvType="Text" DesignTimeRectangle="547, 415, 52, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Email' check:innerText='Email*' /&gt;" Guid="3de29e23-a4ef-4b1e-83b2-aa1ff02f4ce4" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -310,7 +316,7 @@
               <uix:NSetText.Target>
                 <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" ContentHash="jtit99JFSUqkjv9GdTqceg" DesignTimeRectangle="547, 533, 415, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password1' tag='INPUT' type='password' class='form-control fakepassword entry-disabled' aaname='Password*' /&gt;" Guid="589c0005-e72f-4bd7-a3d3-10761bab6f56" InformativeScreenshot="80f847d7fd999fc33228304f53d878c9.png" Reference="2InKtPWaUUKYWugxVQqIig/TsJ8BU-dRk2_Vn04CEiciQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 504, 85, 15" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="547, 501, 83, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='form-label' check:innerText='Password*' /&gt;" Guid="10e2c00a-bdc8-418d-ac4d-97def0d20309" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
