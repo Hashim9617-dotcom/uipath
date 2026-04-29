@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox India BLS Spain Visa Welcome to the O",
+  "Type": "Screen",
+  "Id": "wCjK8r9aAk-18DpNCjCBIg",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/UKrNNp-JOU-KxDXUvrCsLg",
+  "Created": "2026-04-27T08:56:29.9900791Z",
+  "Updated": "2026-04-27T08:56:29.9900791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

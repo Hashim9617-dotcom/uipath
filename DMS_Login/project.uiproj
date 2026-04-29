@@ -1,0 +1,6 @@
+{
+  "Name": "DMS_Login",
+  "ProjectType": "Process",
+  "Description": "this is a automation process for DMS \r\n",
+  "MainFile": "Main.xaml"
+}

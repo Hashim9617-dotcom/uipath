@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N5uaDT1gz0eO4ueit1Ip5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/Appointment/Payment" DesignTimeRectangle="973, 729, 148, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Select &amp;amp; Continue' parentid='vas_6' tag='BUTTON' /&gt;" Guid="d893f468-5832-4ef3-89d6-f065da4c0a1f" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="03e672591bf036e1b07f66113e124005.jpg" xmlns="">0FC1-9lQkQ0yKA_Ie8ZWklg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

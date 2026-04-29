@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox synergydms.aitalkx.com",
+  "Type": "App",
+  "Id": "VIMukuVVxkGMiuqBoVLvXQ",
+  "Reference": "HQCon9A2Sky48I4i7ZzPnA/VIMukuVVxkGMiuqBoVLvXQ",
+  "Created": "2026-04-27T11:13:38.4929899Z",
+  "Updated": "2026-04-27T11:13:38.4929899Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

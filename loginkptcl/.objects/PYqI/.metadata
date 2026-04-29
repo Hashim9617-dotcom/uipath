@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome pensionui-dev.aitalkx.com#signin",
+  "Type": "App",
+  "Id": "PYqIlXd9dkSuLejckynzhA",
+  "Reference": "bnmgaI5UJUS14rDrFJTbGg/PYqIlXd9dkSuLejckynzhA",
+  "Created": "2026-04-14T11:20:42.1997172Z",
+  "Updated": "2026-04-14T11:20:42.1997172Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

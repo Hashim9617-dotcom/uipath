@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9pUrF72SdkaU4ltVXwQUyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/Account/LogIn" DesignTimeRectangle="905, 421, 415, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='idthmpn' tag='INPUT' type='text' class='form-control entry-disabled' aaname='Email*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="f22ef21a-d712-4d33-9375-26ac04735334" IsResponsive="True" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="905, 389, 52, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Email' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email*' /&gt;" Guid="f9d8ee99-b978-487a-a490-8ebb89dd956a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d0d0921f97cdddd21fd209f3f3fd2a83.jpg" xmlns="">0agiZtsxsJECYWH41_Sa1VA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

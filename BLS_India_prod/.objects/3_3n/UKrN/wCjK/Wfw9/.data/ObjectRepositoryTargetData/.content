@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y97ir_kROUqqnC2j6Hhlqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/Appointment/Payment" DesignTimeRectangle="901, 672, 11, 12" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='PolicyCheck' tag='INPUT' type='checkbox' class='mr-2 mt-2' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c33d3b2f-2922-486d-a79b-ae9caa645336" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="901, 688, 212, 96" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                     I agree to receive appointment and service-related communications from BLS International regarding the submission of my visa application and travel.                                                 ' parentid='vas_final' tag='LABEL' type='' class='form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I agree to receive appointment and service-related communications from BLS International regarding the submission of my visa application and travel.' /&gt;" Guid="8cfc50b6-4602-45ae-aaaa-c6a1a56f23b7" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="505fb260429c9e774a3893135491895c.jpg" xmlns="">0Xs8LmfsjvUSmEyoyn2Lh5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qxm8QHGk8Eu0Dpt0cJkVew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/Appointment/Payment" DesignTimeRectangle="901, 578, 11, 11" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='AgreeChk' tag='INPUT' type='checkbox' class='mr-2 mt-2' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9a371c79-2178-42fe-b72d-761dba75ec4b" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="901, 594, 212, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='vas_final' tag='LABEL' type='' class='form-label' aaname='I agree to these  of Travel Insurance.' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I agree to these Terms and Conditions of Travel Insurance.' /&gt;" Guid="edf2afce-7950-4ded-8680-43843df3da53" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f8ac244c04711c5cfa9b904e7dd7fed.jpg" xmlns="">01YqwHuEIRk-vt4ZXju-gyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

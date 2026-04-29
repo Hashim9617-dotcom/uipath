@@ -1,0 +1,6 @@
+{
+  "Name": "BLS_DOMINICAN_REPUBLIC",
+  "ProjectType": "Process",
+  "Description": "this is a automation for the dominican republic appointment book",
+  "MainFile": "Main.xaml"
+}

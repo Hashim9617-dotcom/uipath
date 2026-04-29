@@ -1,0 +1,6 @@
+{
+  "Name": "BLS Template",
+  "ProjectType": "Process",
+  "Description": "this is a bls process for india prod ",
+  "MainFile": "Main.xaml"
+}

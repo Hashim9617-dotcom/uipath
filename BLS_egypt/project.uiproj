@@ -1,0 +1,6 @@
+{
+  "Name": "BLS_egypt",
+  "ProjectType": "Process",
+  "Description": "trying to create an automation for BLS ",
+  "MainFile": "Main.xaml"
+}

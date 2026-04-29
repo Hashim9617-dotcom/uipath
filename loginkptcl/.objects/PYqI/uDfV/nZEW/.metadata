@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome pensionui-dev.aitalkx.com#signin",
+  "Type": "Screen",
+  "Id": "nZEWi56t2ECBZiyM_lsqDQ",
+  "Reference": "bnmgaI5UJUS14rDrFJTbGg/nZEWi56t2ECBZiyM_lsqDQ",
+  "ParentRef": "bnmgaI5UJUS14rDrFJTbGg/uDfVw3LUCUS0LQUwiVXFsw",
+  "Created": "2026-04-14T11:20:42.2369394Z",
+  "Updated": "2026-04-14T11:20:42.2369394Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

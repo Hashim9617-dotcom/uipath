@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yPIB0pcCs0SIUoijzbJEXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="do.blsspainglobal.com/Global/blsAppointment/ManageAppointment" DesignTimeRectangle="201, 465, 514, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="d2cd98de-07b2-41e4-a5a1-15d2830496e3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgYAAAATCAYAAADru8WhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dYxEQAgEMAwZL1/Y3AsHbBAhixV0DUzGwDgWm8AAP5lDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAHDquihDQaKbpAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5b1a9b0536893faa9a358f51cc55d480.jpg" xmlns="">0oUCzR3DEU0CaMz_vYuh5ow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="US06xRsSLUO5QU7TxiQ59g" Reference="H4L9RGSK00ODzYIsfTpS4Q/Bl5B6e6rAE-pM8WYpEkQBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Firefox" ContentHash="XXJ03eo1dkS7NXf76AN6NA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4T6WTT0jUURDHZ+b9dJXdzIsQFQXJmkJ0qCACgw5dIoqC2GMReMiKEBX9/faP1LruuixtJ12sQ2F16tihDtJGCGmnDhlFSxcLIzXRddN1971pfmt7iW77To83M5/5zve9h1DjwhrroXbAcDzxAhj9gtrNzI/b/a3XA4GAHo6PZgF4MRJ0AlWVsdHRTmPgGTDvAsRvpPAiRkcSjAjLAJgVwCUJpIeCdt/2ORYiQdvnArLZrDX9dnaLAeYB+Q4wXCbCuxUAIYbCQTsuXcuS+1GKDouyX6LsZyRkt7uAdDrduL5R/E2Aj8Ih+2pVlQvIixGr0nlJFLSiRccig4Of/yrIC6ypmiwNxiWnWxRPSdeeIdueQzlccxNE2orMtg8J7IjjJGPxZI8cL4ecgScyioS3VyyRvGaMybh7RHW2MoJsnw+F7PPRROIoMh7pPHH84fTMOweMaYyEnOD/rlrqii7YBUyQRQ/EsVXQ+oLRlr+jbf/NT19yRQEDEXW7AGLrlYbSiBg4UU80WyybNanJYSo16V3ZzHcZpl5GtceDm1ei4VtPnWjmJaI+xYyebZA6yUYPAOpzKAMzWN/rlTqNk6l+b57Lfo+1td7VO577V+7Y2G0fFAq+GwOpH27sXjLcoRW39PePvKn48Pp+25k64AVGbrCgDAZVszYsj4rek6UKhnknGVMg0l7UjCVoKgHULSCtHtxrlWdwKnOoD5iWFKk5DaZVrC2igWZm7ZV5GwjUPCJ9lRfYYojrFesD4t1G2dAOiX2o/S/U+hv/AAaWC9XdQaiHAAAAAElFTkSuQmCC" Reference="H4L9RGSK00ODzYIsfTpS4Q/Bl5B6e6rAE-pM8WYpEkQBQ" Selector="&lt;html app='firefox.exe' title='Dominican Republic BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Dominican Republic' /&gt;" Url="https://do.blsspainglobal.com/Global/home/index" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="a89b71d5edffc9b90d2d33fa55612029.jpg" xmlns="">0xs7zZDitNU6-W0X5_NnMvQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

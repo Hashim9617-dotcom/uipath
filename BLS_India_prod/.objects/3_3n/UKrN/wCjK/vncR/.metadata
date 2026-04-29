@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Select & Continue(8)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vncRmwzeO0ytrn4Gh4Plkw",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/vncRmwzeO0ytrn4Gh4Plkw",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "Created": "2026-04-27T12:36:06.02717Z",
+  "Updated": "2026-04-27T12:36:06.02717Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

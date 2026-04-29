@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pay Amount",
+  "Type": "Element",
+  "Id": "Sg86ap8IpUGNq6JLx4FBxg",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/Sg86ap8IpUGNq6JLx4FBxg",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "Created": "2026-04-27T12:37:52.7139994Z",
+  "Updated": "2026-04-27T12:37:52.7139994Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

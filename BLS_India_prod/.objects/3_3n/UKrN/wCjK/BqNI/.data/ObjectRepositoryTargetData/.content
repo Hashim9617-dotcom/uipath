@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dd2-JseOfEiWmOtks7vIIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/Appointment/ApplicantSelection" DesignTimeRectangle="263, 627, 11, 11" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='rdo-3094' tag='INPUT' /&gt;" Guid="02cbfca1-a734-4935-9158-4cd95a4370bf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACaSURBVDhPpZK9C4MwEMX9/3dnh666d3Ps4tTVQaGzEFxN+uQnKLaRgLmDI9y99+4jSeF9UK4X/4k7/iNeFq9pcmrbl6qqVlk+tpOYPPilGKDvRzXNU133lnOzQvhuJzF58HOBQ0xlCMPw0ZWRB4cXiRmNDikDhxeJ2Y0RUwYOLxJzOeyYMnB4kdjU2bSz6bZN77wXyPphOW4Sr3R4V9pZsBzQAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7de20088bf4005b947f9d1524f9fd3f5.jpg" xmlns="">09eoM7P0P0kK_M5W9G8pPWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

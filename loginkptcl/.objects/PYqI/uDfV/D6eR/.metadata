@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox pensionui-dev.aitalkx.com#dashboard(1)",
+  "Type": "Screen",
+  "Id": "D6eRNcs5eUaV_m8CZZ6UyA",
+  "Reference": "bnmgaI5UJUS14rDrFJTbGg/D6eRNcs5eUaV_m8CZZ6UyA",
+  "ParentRef": "bnmgaI5UJUS14rDrFJTbGg/uDfVw3LUCUS0LQUwiVXFsw",
+  "Created": "2026-04-20T14:10:36.4027993Z",
+  "Updated": "2026-04-20T14:10:36.4027993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.30.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

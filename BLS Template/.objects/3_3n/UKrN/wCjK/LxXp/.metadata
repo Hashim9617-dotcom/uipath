@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Order Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LxXpY1ITIk-M2PtK2FJgCQ",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/LxXpY1ITIk-M2PtK2FJgCQ",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "Created": "2026-04-27T12:31:40.3725327Z",
+  "Updated": "2026-04-27T12:31:40.3725327Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

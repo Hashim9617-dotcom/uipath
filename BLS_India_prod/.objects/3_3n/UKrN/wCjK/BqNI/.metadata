@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT rdo-3094",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "BqNIlP-20Ums0U_SCRyjuA",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/BqNIlP-20Ums0U_SCRyjuA",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "Created": "2026-04-27T10:25:19.7505601Z",
+  "Updated": "2026-04-27T10:25:19.7505601Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

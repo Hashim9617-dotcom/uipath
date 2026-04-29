@@ -1,0 +1,1095 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.IMAP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1200,9848" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="snm:MailMessage[]" Name="mailList" />
+      <Variable x:TypeArguments="x:String" Name="otp" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Firefox: Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Ce" sap:VirtualizedContainerService.HintSize="1056,9825" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022,9584" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,647" sap2010:WorkflowViewState.IdRef="Sequence_19">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="3d62fbec-f49b-4f08-9662-35330a38cd19" DisplayName="CV Screen Scope 'A  /Global/appointment/...'" sap:VirtualizedContainerService.HintSize="434,553" sap2010:WorkflowViewState.IdRef="CVScope_2" SendOnPremData="False" Version="V6">
+                <p:CVScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Book New Appointment' (15,19,180,19)&quot;]" DesignTimeCacheId="3d62fbec-f49b-4f08-9662-35330a38cd19" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="0a434636c4129e703b88f790ad5726fe" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="add85ce7-ac0f-4bf0-a782-2ad7114f93bf">
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="15, 19, 180, 19" ElementType="Text" Text="Book New Appointment" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="2873f31d-a187-47af-9931-16f110aa3912">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                    </Sequence>
+                  </ActivityAction>
+                </p:CVScope.Body>
+                <p:CVScope.DesignTimeCache>
+                  <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                </p:CVScope.DesignTimeCache>
+                <p:CVScope.DesignTimeCacheContainer>
+                  <uc:CvCacheContainer>
+                    <uc:CvCacheContainer.Caches>
+                      <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                        <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Book New Ap (Main)" Id="3d62fbec-f49b-4f08-9662-35330a38cd19" InformativeScreenshot="0d4c1667e60359a2ccf3cb08593c7d88" LogicalPosition="560, 224" OcrText="Book New Appointment" Position="560, 224" ScreenshotGuid="539b39cf-49db-43c9-b1b2-a7ab45795cff" ServerVersion="0">
+                          <uc:CVCache.CvAnchorRelations>
+                            <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                          </uc:CVCache.CvAnchorRelations>
+                          <uc:CVCache.CvUiElements>
+                            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="4">
+                              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="0, 0, 211, 56" />
+                            </scg:List>
+                          </uc:CVCache.CvUiElements>
+                          <uc:CVCache.OcrTexts>
+                            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="3">
+                              <uc:OcrTextInfo Region="15, 19, 39, 15" Text="Book" />
+                              <uc:OcrTextInfo Region="56, 20, 35, 14" Text="New" />
+                              <uc:OcrTextInfo Region="93, 19, 102, 19" Text="Appointment" />
+                            </scg:List>
+                          </uc:CVCache.OcrTexts>
+                        </uc:CVCache>
+                      </scg:List>
+                    </uc:CvCacheContainer.Caches>
+                  </uc:CvCacheContainer>
+                </p:CVScope.DesignTimeCacheContainer>
+                <p:CVScope.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                  </ActivityFunc>
+                </p:CVScope.OCREngine>
+                <p:CVScope.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9e398078-f99b-4073-bd73-f3f3f2651796" InformativeScreenshot="c4f19ee6d7ed9785ee61811fe148d999" Selector="&lt;webctrl aaname='Book New Appointment' parentid='navbarCollapse2' tag='A' /&gt;" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </p:CVScope.Target>
+                <p:CVScope.UseLocalServer>
+                  <InArgument x:TypeArguments="x:Boolean" />
+                </p:CVScope.UseLocalServer>
+              </p:CVScope>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,472" sap2010:WorkflowViewState.IdRef="Sequence_20">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NSetText DisplayName="Set Text 'Email*'" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Text="Hashimkha0704@gmail.com" Version="V3">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Account/LogIn?ReturnUrl=%2FGlobal%2Fappointment%2Fnewappointment" DesignTimeRectangle="522, 463, 416, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT eoyyvvf'" FullSelectorArgument="&lt;webctrl id='eoyyvvf' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='eoyyvvf' tag='INPUT' type='text' class='form-control entry-disabled' aaname='Email*' /&gt;" Guid="1687cfa9-668c-41aa-89e8-0633df05b2ed" InformativeScreenshot="d0c7bb7f633e8f132b60dea2e3d8ea76.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="522, 431, 52, 24" ElementType="Text" FriendlyName="'Email*'" FullSelectorArgument="&lt;webctrl idx='9' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Email' check:innerText='Email*' /&gt;" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Verify'" sap:VirtualizedContainerService.HintSize="416,183" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Account/LogIn?ReturnUrl=%2FGlobal%2Fappointment%2Fnewappointment" DesignTimeRectangle="956, 594, 84, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Verify'" FullSelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Verify' check:innerText='Verify' /&gt;" Guid="7735d001-6cbf-4929-961b-26da46eb8189" InformativeScreenshot="7be230eb981e373697767ad9d384660e.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,595" sap2010:WorkflowViewState.IdRef="Sequence_21">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;enter the captha then press ok&quot;]" />
+              <uix:NSetText DisplayName="Set Text 'Password*'" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSetText_3" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Text="Khan@786" Version="V3">
+                <uix:NSetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/newcaptcha/logincaptcha?returnUrl=%2FGlobal%2Fappointment%2Fnewappointment&amp;data=GAZg2XkToJy64xoNrBe%2FiM50UTUMCefYSifmMlzArhF3dWShsiBsH7tprOEj31nA2hEIgi%2Bt8svJjN7h91brIyAYRi7DSSnuI8Ez%2FTSiroBwVI9NMwmjjv60j48%2FTckhodtEudkrfQslTMT9ZdV5lD9U38rirC5VsVngJrfbZTA%3D" DesignTimeRectangle="508, 703, 330, 38" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT stcwihtsz'" FullSelectorArgument="&lt;webctrl id='stcwihtsz' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='stcwihtsz' tag='INPUT' type='password' class='form-control entry-disabled' aaname='Password*' /&gt;" Guid="33e64924-c8f4-4252-a384-7e479d234c98" InformativeScreenshot="4751c946d54bdc772d6c8ca2b81ccf97.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='egypt.blsdemo.com/Global/newcaptcha/logincaptcha?returnUrl=%2FGlobal%2Fappointment%2Fnewappointment&amp;amp;data=GAZg2XkToJy64xoNrBe%2FiM50UTUMCefYSifmMlzArhF3dWShsiBsH7tprOEj31nA2hEIgi%2Bt8svJjN7h91brIyAYRi7DSSnuI8Ez%2FTSiroBwVI9NMwmjjv60j48%2FTckhodtEudkrfQslTMT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="634, 671, 78, 24" ElementType="Text" FriendlyName="'Password*'" FullSelectorArgument="&lt;webctrl idx='9' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Password' check:innerText='Password*' /&gt;" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSetText.Target>
+              </uix:NSetText>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,183" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/newcaptcha/logincaptcha?returnUrl=%2FGlobal%2Fappointment%2Fnewappointment&amp;data=GAZg2XkToJy64xoNrBe%2FiM50UTUMCefYSifmMlzArhF3dWShsiBsH7tprOEj31nA2hEIgi%2Bt8svJjN7h91brIyAYRi7DSSnuI8Ez%2FTSiroBwVI9NMwmjjv60j48%2FTckhodtEudkrfQslTMT9ZdV5lD9U38rirC5VsVngJrfbZTA%3D" DesignTimeRectangle="508, 773, 330, 38" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='submit' class='btn btn-success btn-block' aaname='Submit' check:innerText='Submit' /&gt;" Guid="138d62c4-26f6-46e8-8e4f-13f346641b79" InformativeScreenshot="76e4350d5bafcad5c04b5bab4e2bc5c7.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='egypt.blsdemo.com/Global/newcaptcha/logincaptcha?returnUrl=%2FGlobal%2Fappointment%2Fnewappointment&amp;amp;data=GAZg2XkToJy64xoNrBe%2FiM50UTUMCefYSifmMlzArhF3dWShsiBsH7tprOEj31nA2hEIgi%2Bt8svJjN7h91brIyAYRi7DSSnuI8Ez%2FTSiroBwVI9NMwmjjv60j48%2FTckhodtEudkrfQslTMT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,706" sap2010:WorkflowViewState.IdRef="Sequence_22">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check App State 'Clear Selection'" sap:VirtualizedContainerService.HintSize="954,612" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,368" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="MessageBox_10" Text="[&quot;again enter the captha to login&quot;]" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,183" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/AppointmentCaptcha?data=bKMFMMEe3BGAwE%2BzjvIjZuHPeoUQ6nFJUkS6IusP0CkBrYpwbLbcQ%2BwMp4%2Bnfz1wwkyoe2sNjMaudcEI0LV6P3tUS4KYxRfdDWa2uWV454JA12mYNAwfz7XbojFdNyiyusmovPPXbl1c7K4v2YAr1ltaMYJJ2QqtuYpAJRFrHS%2F8syd0nt1Ic2JoVsfN4hy0BKzGpVgzhON2EJ0S9i6zuwn1o3XHlAOX4LEE69U1Q%2FGIv%2BY43Z%2F0e4SDhH%2BEGchVDx1vTgAsRflmWOKnL7iTTDc%2BTPNapQ4X%2FO16Ki%2F1IkHCl1GDwLGDmuRlMULNaMsc" DesignTimeRectangle="1127, 732, 330, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='submit' class='btn btn-primary btn-block' aaname='Submit' check:innerText='Submit' /&gt;" Guid="bf9d9fd8-2447-4b88-83d8-29a14f3628fa" InformativeScreenshot="dfbd6242c84bfaced21c414542206e89.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,178" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[&quot;click ok rto book appointment&quot;]" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/AppointmentCaptcha?data=bKMFMMEe3BGAwE%2BzjvIjZuHPeoUQ6nFJUkS6IusP0CkBrYpwbLbcQ%2BwMp4%2Bnfz1wwkyoe2sNjMaudcEI0LV6P3tUS4KYxRfdDWa2uWV454JA12mYNAwfz7XbojFdNyiyusmovPPXbl1c7K4v2YAr1ltaMYJJ2QqtuYpAJRFrHS%2F8syd0nt1Ic2JoVsfN4hy0BKzGpVgzhON2EJ0S9i6zuwn1o3XHlAOX4LEE69U1Q%2FGIv%2BY43Z%2F0e4SDhH%2BEGchVDx1vTgAsRflmWOKnL7iTTDc%2BTPNapQ4X%2FO16Ki%2F1IkHCl1GDwLGDmuRlMULNaMsc" DesignTimeRectangle="1153, 693, 112, 21" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Clear Selection'" FullSelectorArgument="&lt;webctrl parentid='captchaForm' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='captchaForm' tag='A' type='' class='' aaname='Clear Selection' check:innerText='Clear Selection' /&gt;" Guid="ce3569a4-b65f-4a86-8c66-cd1d5b6773ea" InformativeScreenshot="6c460229297732509032528862497b47.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,3482" sap2010:WorkflowViewState.IdRef="Sequence_23">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="10ab6aff-8391-42d9-9f9a-e36298c482a5" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="450,2995" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
+                <p:CVScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Individual' (60,495,73,16)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,219" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_5" InformativeScreenshot="2eb8615538bf25dc91139a37d72d0d6c" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="30a82d54-253d-4d28-945f-2071647d5248">
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="60, 495, 73, 16" ElementType="Text" Text="Individual" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="73dd1a37-95b8-411c-817d-12d64bc89e53">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: InputBox (16,602,420,37)&quot; +&#xA;&quot;Anchor: Text 'Category' (14,577,71,19)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - InputBox" sap:VirtualizedContainerService.HintSize="400,219" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_6" InformativeScreenshot="e3b58d4a3b8a76cfd8faf2708d26c32b" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="e6dffa86-36a9-4cda-a331-01790b1f3671">
+                            <uc:CvDescriptor.Anchors>
+                              <x:Array Type="uc:CvElementDescriptor">
+                                <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="14, 577, 71, 19" ElementType="Text" Text="Category" />
+                              </x:Array>
+                            </uc:CvDescriptor.Anchors>
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="16, 602, 420, 37" ElementType="InputBox" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="30714d61-d564-4142-93ce-052a4d1f1555">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="400,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text '--Select--' (24,194,83,15)&quot; +&#xA;&quot;Anchor: Text 'Location *' (15,156,78,16)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,219" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_8" InformativeScreenshot="8c31bdd92b625fd1f3a7154a0ec01f86" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="460b4d47-0f25-440d-a7d6-cb1380d25d71">
+                            <uc:CvDescriptor.Anchors>
+                              <x:Array Type="uc:CvElementDescriptor">
+                                <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="15, 156, 78, 16" ElementType="Text" Text="Location *" />
+                              </x:Array>
+                            </uc:CvDescriptor.Anchors>
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="24, 194, 83, 15" ElementType="Text" Text="--Select--" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="c7ade603-6357-4a1b-ab86-0108c91abc67">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="400,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V3" />
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: InputBox (16,276,418,37)&quot; +&#xA;&quot;Anchor: Text 'Visa Type' (14,249,74,19)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - InputBox" sap:VirtualizedContainerService.HintSize="400,219" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_9" InformativeScreenshot="b828fc57e9193e5625ea1ae34a107f6b" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="579d35cb-f8f4-45db-9ef5-6d8f8b08046c">
+                            <uc:CvDescriptor.Anchors>
+                              <x:Array Type="uc:CvElementDescriptor">
+                                <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="14, 249, 74, 19" ElementType="Text" Text="Visa Type" />
+                              </x:Array>
+                            </uc:CvDescriptor.Anchors>
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="16, 276, 418, 37" ElementType="InputBox" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8525a736-8dce-44b1-b193-99214d8171e9">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="400,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V3" />
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text '--Select--' (24,378,83,16)&quot; +&#xA;&quot;Anchor: Text 'Visa Sub Type' (14,341,107,19)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,219" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_10" InformativeScreenshot="c29b886719e7652ebc584c4fa2a12383" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="337cb378-183f-41c2-9a62-1822afba4d23">
+                            <uc:CvDescriptor.Anchors>
+                              <x:Array Type="uc:CvElementDescriptor">
+                                <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="14, 341, 107, 19" ElementType="Text" Text="Visa Sub Type" />
+                              </x:Array>
+                            </uc:CvDescriptor.Anchors>
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="24, 378, 83, 16" ElementType="Text" Text="--Select--" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0c1f0027-0fba-48dc-8082-d8e335425d62">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="400,123" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V3" />
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Submit' (193,667,63,17)&quot;]" DesignTimeCacheId="995650b6-7418-4240-b7be-951e6190c4fd" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_11" InformativeScreenshot="a1136c65cdc081b778a2ce827d6c6b85" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="1e32338b-759d-42bd-aea3-6d2464ec1701">
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="193, 667, 63, 17" ElementType="Text" Text="Submit" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="88da0f28-a075-4e22-bedb-1cf239604d52">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                    </Sequence>
+                  </ActivityAction>
+                </p:CVScope.Body>
+                <p:CVScope.DesignTimeCache>
+                  <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                </p:CVScope.DesignTimeCache>
+                <p:CVScope.DesignTimeCacheContainer>
+                  <uc:CvCacheContainer>
+                    <uc:CvCacheContainer.Caches>
+                      <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
+                        <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Individual' " Id="995650b6-7418-4240-b7be-951e6190c4fd" InformativeScreenshot="ed359848b001d35d200349bef74e0961" LogicalPosition="1135, 374" OcrText="BLS INTERNATIONAL Location * --Select-- Visa Type * --Select-- Visa Sub Type * --Select-- Appointment For* Individual Family Category * Normal Submit" Position="1135, 374" ScreenshotGuid="ef15976a-c27c-466b-b1a2-6c5567eecd47" ServerVersion="0">
+                          <uc:CVCache.CvAnchorRelations>
+                            <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="8">
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="2">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>17</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="1">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>16</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="11">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>9</x:Int32>
+                                    <x:Int32>10</x:Int32>
+                                    <x:Int32>11</x:Int32>
+                                    <x:Int32>12</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="13">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>2</x:Int32>
+                                    <x:Int32>3</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="12">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>5</x:Int32>
+                                    <x:Int32>6</x:Int32>
+                                    <x:Int32>7</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="14">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>18</x:Int32>
+                                    <x:Int32>19</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                            </scg:List>
+                          </uc:CVCache.CvAnchorRelations>
+                          <uc:CVCache.CvUiElements>
+                            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="32">
+                              <uc:CvElementInfo Category="Button" Region="177, 653, 97, 45" />
+                              <uc:CvElementInfo Category="RadioButton" Region="38, 492, 20, 20" />
+                              <uc:CvElementInfo Category="RadioButton" Region="180, 492, 21, 21" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="82, 155, 13, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="122, 339, 13, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="89, 247, 13, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="179, 14, 95, 48" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="38, 492, 20, 20" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="86, 575, 13, 12" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="180, 15, 34, 40" />
+                              <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="16, 602, 419, 37" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 368, 417, 36" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 276, 418, 37" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 185, 417, 35" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 602, 420, 37" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 191, 20, 24" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 375, 20, 25" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="407, 282, 21, 26" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 610, 20, 25" />
+                            </scg:List>
+                          </uc:CVCache.CvUiElements>
+                          <uc:CVCache.OcrTexts>
+                            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="22">
+                              <uc:OcrTextInfo Region="181, 15, 88, 39" Text="BLS" />
+                              <uc:OcrTextInfo Region="183, 52, 86, 12" Text="INTERNATIONAL" />
+                              <uc:OcrTextInfo Region="15, 157, 65, 16" Text="Location" />
+                              <uc:OcrTextInfo Region="83, 156, 10, 11" Text="*" />
+                              <uc:OcrTextInfo Region="24, 194, 83, 15" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 249, 34, 16" Text="Visa" />
+                              <uc:OcrTextInfo Region="50, 249, 38, 19" Text="Type" />
+                              <uc:OcrTextInfo Region="91, 249, 10, 9" Text="*" />
+                              <uc:OcrTextInfo Region="24, 286, 83, 16" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 341, 34, 15" Text="Visa" />
+                              <uc:OcrTextInfo Region="50, 341, 31, 15" Text="Sub" />
+                              <uc:OcrTextInfo Region="82, 341, 39, 19" Text="Type" />
+                              <uc:OcrTextInfo Region="123, 341, 10, 9" Text="*" />
+                              <uc:OcrTextInfo Region="24, 378, 83, 16" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 463, 101, 19" Text="Appointment" />
+                              <uc:OcrTextInfo Region="117, 463, 33, 16" Text="For*" />
+                              <uc:OcrTextInfo Region="60, 495, 73, 16" Text="Individual" />
+                              <uc:OcrTextInfo Region="202, 495, 50, 19" Text="Family" />
+                              <uc:OcrTextInfo Region="14, 577, 71, 19" Text="Category" />
+                              <uc:OcrTextInfo Region="87, 577, 10, 9" Text="*" />
+                              <uc:OcrTextInfo Region="24, 614, 56, 16" Text="Normal" />
+                              <uc:OcrTextInfo Region="193, 667, 63, 17" Text="Submit" />
+                            </scg:List>
+                          </uc:CVCache.OcrTexts>
+                        </uc:CVCache>
+                        <uc:CVCache DataSent="False" DisplayName="Main Screen" Id="10ab6aff-8391-42d9-9f9a-e36298c482a5" InformativeScreenshot="54f991807c8db382f12941a4fa658ff4" LogicalPosition="985, 272" OcrText="BLS INTERNATIONAL Location * --Select-- Visa Type * --Select-- Visa Sub Type * --Select-- Appointment For* Individual Family Category * --Select-- Submit" Position="985, 272" ScreenshotGuid="053d0de6-5919-47d8-80ab-2e22e0fc7cd6" ServerVersion="0">
+                          <uc:CVCache.CvAnchorRelations>
+                            <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="8">
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="1">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>17</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="2">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>16</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="11">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>9</x:Int32>
+                                    <x:Int32>10</x:Int32>
+                                    <x:Int32>11</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="13">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>18</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="14">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>2</x:Int32>
+                                    <x:Int32>3</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                              <uc:AnchorRelationInfo IsTargetText="False" Target="12">
+                                <uc:AnchorRelationInfo.Anchors>
+                                  <x:Array Type="x:Int32">
+                                    <x:Int32>5</x:Int32>
+                                    <x:Int32>6</x:Int32>
+                                    <x:Int32>7</x:Int32>
+                                  </x:Array>
+                                </uc:AnchorRelationInfo.Anchors>
+                              </uc:AnchorRelationInfo>
+                            </scg:List>
+                          </uc:CVCache.CvAnchorRelations>
+                          <uc:CVCache.CvUiElements>
+                            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="32">
+                              <uc:CvElementInfo Category="Button" Region="177, 634, 96, 45" />
+                              <uc:CvElementInfo Category="RadioButton" Region="180, 472, 21, 21" />
+                              <uc:CvElementInfo Category="RadioButton" Region="38, 473, 20, 20" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="123, 319, 13, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="86, 556, 13, 12" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="82, 155, 13, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="90, 237, 14, 13" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="38, 473, 20, 20" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="179, 14, 95, 48" />
+                              <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="122, 318, 15, 16" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="180, 15, 34, 40" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 349, 417, 35" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 267, 418, 36" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 585, 418, 35" />
+                              <uc:CvElementInfo Category="InputBox" Region="16, 185, 417, 35" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 192, 20, 24" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 592, 20, 24" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 354, 20, 26" />
+                              <uc:CvElementInfo Category="ArrowButton" Region="408, 274, 19, 24" />
+                            </scg:List>
+                          </uc:CVCache.CvUiElements>
+                          <uc:CVCache.OcrTexts>
+                            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="22">
+                              <uc:OcrTextInfo Region="181, 15, 88, 39" Text="BLS" />
+                              <uc:OcrTextInfo Region="183, 52, 86, 12" Text="INTERNATIONAL" />
+                              <uc:OcrTextInfo Region="15, 157, 66, 16" Text="Location" />
+                              <uc:OcrTextInfo Region="83, 156, 10, 11" Text="*" />
+                              <uc:OcrTextInfo Region="25, 194, 83, 16" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 239, 34, 16" Text="Visa" />
+                              <uc:OcrTextInfo Region="50, 239, 39, 20" Text="Type" />
+                              <uc:OcrTextInfo Region="91, 238, 10, 10" Text="*" />
+                              <uc:OcrTextInfo Region="25, 276, 83, 15" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 321, 34, 16" Text="Visa" />
+                              <uc:OcrTextInfo Region="50, 321, 31, 16" Text="Sub" />
+                              <uc:OcrTextInfo Region="83, 321, 38, 19" Text="Type" />
+                              <uc:OcrTextInfo Region="124, 321, 10, 9" Text="*" />
+                              <uc:OcrTextInfo Region="25, 358, 83, 15" Text="--Select--" />
+                              <uc:OcrTextInfo Region="14, 444, 101, 19" Text="Appointment" />
+                              <uc:OcrTextInfo Region="117, 444, 33, 16" Text="For*" />
+                              <uc:OcrTextInfo Region="60, 476, 73, 16" Text="Individual" />
+                              <uc:OcrTextInfo Region="202, 476, 50, 19" Text="Family" />
+                              <uc:OcrTextInfo Region="15, 558, 70, 19" Text="Category" />
+                              <uc:OcrTextInfo Region="87, 557, 10, 10" Text="*" />
+                              <uc:OcrTextInfo Region="24, 595, 84, 16" Text="--Select--" />
+                              <uc:OcrTextInfo Region="193, 648, 63, 17" Text="Submit" />
+                            </scg:List>
+                          </uc:CVCache.OcrTexts>
+                        </uc:CVCache>
+                      </scg:List>
+                    </uc:CvCacheContainer.Caches>
+                  </uc:CvCacheContainer>
+                </p:CVScope.DesignTimeCacheContainer>
+                <p:CVScope.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_4" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                  </ActivityFunc>
+                </p:CVScope.OCREngine>
+                <p:CVScope.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d7832146-4075-4dcc-8944-5deb3faed68e" InformativeScreenshot="d003990fb05acc250ecf37599c228300" Selector="&lt;webctrl idx='2' parentid='div-main' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </p:CVScope.Target>
+                <p:CVScope.UseLocalServer>
+                  <InArgument x:TypeArguments="x:Boolean" />
+                </p:CVScope.UseLocalServer>
+              </p:CVScope>
+              <Sequence sap:VirtualizedContainerService.HintSize="450,393" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="MessageBox_12" Text="[&quot;enter captha to confirm&quot;]" />
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,183" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/AppointmentCaptcha?data=bKMFMMEe3BGAwE%2BzjvIjZjdZVRNojbGfxsoxR9C2%2BP3JlhrxbKv6qjzDLatvgteP%2F5d6acj%2BNR74Ts%2By3N3Lg7Cb7kmECBJusTKdjMHbH%2B%2BR0ARdY%2FrG1sS7ec5%2FNAhlAq6V9Hlhpzj5YOUYOv6RNiayzPkf%2B8oRMvXquP2DKNQOgXgNyGpjIrrPx6VckE6%2B%2F1zWBegzznS1Y14ST17zIsIsqFg87gwLaXBHXq9dVQ9f1MclqPl84IlmL5nsvXcSap%2Bi39fBW4LcZOHL3ymRu7SxTxUmnSwtSFz5lHln6RCBwArfg4iYCkj0BbIGQcSB" DesignTimeRectangle="810, 795, 330, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='submit' class='btn btn-primary btn-block' aaname='Submit' check:innerText='Submit' /&gt;" Guid="7ccdb031-c97a-4a40-9a84-1ac9eee7b884" InformativeScreenshot="5f507f5270719b96405f27c6cda9031f.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,398" sap2010:WorkflowViewState.IdRef="Sequence_33">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="MessageBox_14" Text="[&quot;please book the appointment date and slot &quot;]" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/SlotSelection?data=bKMFMMEe3BGAwE%2BzjvIjZjdZVRNojbGfxsoxR9C2%2BP2e84KqeGKVZ46P%2BICjeNGBPqmVQ5V9DDdKJ%2FSlawG6ySxfX%2F3TSBZUmjFm%2B13M0oX3e1wXU19%2FNe%2BfOAbMvdlB3MiG2GU1C22zT%2FznaYAE651WmIHUC7NJgPTV14cuzpptPV4EjmAXrGlEQ0F2sVvVUJkWdnOAKT1Pf8y7dwHqfHpes9KvkgB%2FrTSjxIrBAdueFcb%2BAPn7Q4qfHqP4anUU8DEUF%2FNWZKiVeG1F589Tpmpay2Ppq8yotBs3ukdX6aU%2FV5wuKDhGPIPeXjQsCRDg" DesignTimeRectangle="570, 724, 93, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='btnSubmit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnSubmit' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Submit' check:innerText='Submit' /&gt;" Guid="0aa2fee1-3d22-4bc4-a18a-ea997243b5d6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAuCAYAAAA4CHcaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQUSURBVHhe7ZvPTxNBFMf9g7x498hVj8STXo0HE7l68ORBE6PxQDg0aTBiIkb8rUGagBgKxUaoSkugwdKGlqb8sL/olu3u18x2pt2dXagt23Uh7yXfy+ybtzPvs/Mr2TkHsv9u5+QCMu/tSAjZny+wOHoZM48vYPrhedIJxHLIcsly6mSOEIzkPzqPGYeApN7EcslyynIrmw3C15GLhrMchOSOWG5Zjs1mgSBGgFyR5K7kEdGCwOYrAuCdWK7FGtGCYIwCB2dSf8RyLUZDCwLtgrwXy7kFguxA8kYEwQciCD4QQfCBCIIPRBB8IILgA/UVQnjsFpKLT5FZeoqN0FVEHHz+TXeRy8ZQzH7B5iv5mcsaf4DtzCIKkSGE5Wd9Up8gDGB1LQtdBOam11ex9X7Awb+TgigZEQooTMrP3NVmTuOtXUHa/Gz0Kn68voHlsV7af7yYuQ4hPBdFw4h4gFr6AzKJCGp13rlKCAmHOsfLOwjRuTAUpQQlPYwlU3livWC0oL5+21bnpOoLBNFg7L1sdSQ8M42aUoKqJJF7Z69zvCQI/Kv88XKw85QhfJ9fapcFBrHMyl7/+xS5niqfLggra/lmQDWJ3CdT52VNhlA3HK1DvwUxH+RlbQh7iQjEoGKm1zeQmzJPEcI3hb31DaitOVGDmgsiPt+hfnSl+aA1YkU8yVptO7mYuQ5hejyI0qGIqqJRiqOwdB8/RyW/riEw06BVkijm01BFMg9j2Hwm6pt9VdR3Yyju7ljWJ72aRDEbR423Ud+fQEy83wZhBPtKCQ3+Ll0tQ2UjOjNi73ePYuY+BDb9TDzCdj4Pzdx7bQf789fafj1AaGwNt6cQE+yD+HWbby1xk5cNIJ3nWVQWkAzwNs4uQDUKTe+3QWgqzQf3qZmOLAoMIvEthFK12V3oGeTe8mddQ9hFYcoaX8zVnXztMVnbnqBZ+8xBuILVSPNskPp8pV0eGMYfzqEU5WVdQyhjd8b6vqMhWHdS9phm3zMHwTT0TbujNgQNxUVe9nESiuG4hW0xOgJ3UKjwBtkSCzTywfaOa2IMZQ7WPh25C0GcH9TUPam/JxczlyGYzwmArqRRZoug2JIcRrHB52R2Et6pcUdtB5VsHAeKCk1tonGCwEw/ZFvdcnu9cVyY3YUQ+5Xii7sGrX5KFual2RAqCv9MReMry8hIJ+bw1BtUTXtGvRrB7188ETYISeS/S1vMqhyzPxCmA0PIZE0bDd9vUU2KPGeHok7H/Uv4Lh+ojlW3/v5W3yGQOosg+EAEwQciCD4QQfCBCIIPRBB8IILgA1kg0A/B3sv2QzD9Gu+tHH+Np0si3srxkggzui7ljY68LiWMLg72Vx0vDgqjK7Tuq6srtMLoMrl76ukyOZm3RhB8YH8B9SIsvLXBZmcAAAAASUVORK5CYII=" InformativeScreenshot="b88972a60575939decb05f4bacff7c8b.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+            <Sequence sap:VirtualizedContainerService.HintSize="988,3222" sap2010:WorkflowViewState.IdRef="Sequence_34">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V3">
+                <uix:NMouseScroll.SearchedElement>
+                  <uix:SearchedElement>
+                    <uix:SearchedElement.Target>
+                      <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/ApplicantSelection?data=bKMFMMEe3BGAwE%2BzjvIjZszS6esKQvn899mJ3R0fNbTqATy7AX6iH73FI5ChI%2BzfgavlzBkt2y%2BJbirKGbt9FFmGd3ISF%2B7TAAVmL4VPFrNkutlDexYvWsYYNqwuYTD%2FTTdtzd9dTr4dPBa6i7lv8rZ4QpSrdIkIrdS2MzV%2B3pTosLy0muylOXWaiEGwID%2F49q1kT7AALEm%2Fb8gpFFyroQAfp%2FqXeieipbUa5JInsE9TP4R8ZcVEA0hTSU7Cj%2BjvqRrj%2Fe27Sq%2FRny3zDqvdbTxrWvNWKveANXfdGRoJRPxmRv5eBRtKjbbfzAy39ObA" DesignTimeRectangle="1096, 952, 281, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'I agree'" FullSelectorArgument="&lt;webctrl aaname='I agree to provide my consent' parentid='termsmodal' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='I agree to provide my consent' parentid='termsmodal' tag='BUTTON' type='' class='btn btn-primary' check:innerText='I agree to provide my consent' /&gt;" Guid="65efe206-ec59-480b-bb2f-787a4b70e9aa" InformativeScreenshot="7bdcd3a8c050321d555f38683558e7e5.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:SearchedElement.Target>
+                    <uix:SearchedElement.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:SearchedElement.Timeout>
+                  </uix:SearchedElement>
+                </uix:NMouseScroll.SearchedElement>
+              </uix:NMouseScroll>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I agree'" sap:VirtualizedContainerService.HintSize="434,190" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/ApplicantSelection?data=bKMFMMEe3BGAwE%2BzjvIjZszS6esKQvn899mJ3R0fNbTqATy7AX6iH73FI5ChI%2BzfgavlzBkt2y%2BJbirKGbt9FFmGd3ISF%2B7TAAVmL4VPFrNkutlDexYvWsYYNqwuYTD%2FTTdtzd9dTr4dPBa6i7lv8rZ4QpSrdIkIrdS2MzV%2B3pTosLy0muylOXWaiEGwID%2F49q1kT7AALEm%2Fb8gpFFyroQAfp%2FqXeieipbUa5JInsE9TP4R8ZcVEA0hTSU7Cj%2BjvqRrj%2Fe27Sq%2FRny3zDqvdbTxrWvNWKveANXfdGRoJRPxmRv5eBRtKjbbfzAy39ObA" DesignTimeRectangle="1096, 952, 281, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'I agree'" FullSelectorArgument="&lt;webctrl aaname='I agree to provide my consent' parentid='termsmodal' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='I agree to provide my consent' parentid='termsmodal' tag='BUTTON' type='' class='btn btn-primary' check:innerText='I agree to provide my consent' /&gt;" Guid="93280671-f651-451a-979d-895cf30421ce" InformativeScreenshot="fd6fa01e098d2e9765a5080bce4d9b5a.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="a14f0234-e27c-4bf3-8ec8-83c4eafe55c6" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="434,560" sap2010:WorkflowViewState.IdRef="CVScope_7" SendOnPremData="False" Version="V6">
+                <p:CVScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Browse' (287,132,51,12)&quot;]" DesignTimeCacheId="a14f0234-e27c-4bf3-8ec8-83c4eafe55c6" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_12" InformativeScreenshot="a3a770ed8196a50cbfb94675671dffc8" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="88051af4-17b6-4efd-a56d-72e453741a56">
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="287, 132, 51, 12" ElementType="Text" Text="Browse" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ada3d689-9aca-44b7-88f1-446cc4cecc29">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                    </Sequence>
+                  </ActivityAction>
+                </p:CVScope.Body>
+                <p:CVScope.DesignTimeCacheContainer>
+                  <uc:CvCacheContainer>
+                    <uc:CvCacheContainer.Caches>
+                      <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                        <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Browse' (Main)" Id="a14f0234-e27c-4bf3-8ec8-83c4eafe55c6" InformativeScreenshot="9e4469a4f9b7046cd9153a8643fc9002" LogicalPosition="670, 362" OcrText="Kindly upload your recent photo, preferably taken in last 6 months. File Size should be less than 200 KB * Browse" Position="670, 362" ScreenshotGuid="48568659-2a8f-4389-99ba-43471fb37052" ServerVersion="0">
+                          <uc:CVCache.CvAnchorRelations>
+                            <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                          </uc:CVCache.CvAnchorRelations>
+                          <uc:CVCache.CvUiElements>
+                            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="8">
+                              <uc:CvElementInfo Category="Button" Region="273, 120, 81, 37" />
+                              <uc:CvElementInfo Category="Icon" Region="25, 117, 169, 183" />
+                              <uc:CvElementInfo Category="Icon" Region="56, 125, 105, 111" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="248, 68, 9, 9" />
+                              <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="246, 66, 13, 14" />
+                            </scg:List>
+                          </uc:CVCache.CvUiElements>
+                          <uc:CVCache.OcrTexts>
+                            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="21">
+                              <uc:OcrTextInfo Region="48, 20, 47, 19" Text="Kindly" />
+                              <uc:OcrTextInfo Region="97, 20, 53, 19" Text="upload" />
+                              <uc:OcrTextInfo Region="152, 23, 35, 16" Text="your" />
+                              <uc:OcrTextInfo Region="189, 21, 50, 15" Text="recent" />
+                              <uc:OcrTextInfo Region="242, 20, 49, 19" Text="photo," />
+                              <uc:OcrTextInfo Region="293, 20, 78, 19" Text="preferably" />
+                              <uc:OcrTextInfo Region="372, 20, 44, 15" Text="taken" />
+                              <uc:OcrTextInfo Region="418, 20, 15, 15" Text="in" />
+                              <uc:OcrTextInfo Region="64, 44, 29, 15" Text="last" />
+                              <uc:OcrTextInfo Region="95, 44, 12, 15" Text="6" />
+                              <uc:OcrTextInfo Region="109, 44, 62, 16" Text="months." />
+                              <uc:OcrTextInfo Region="172, 44, 28, 15" Text="File" />
+                              <uc:OcrTextInfo Region="202, 44, 32, 15" Text="Size" />
+                              <uc:OcrTextInfo Region="235, 44, 52, 16" Text="should" />
+                              <uc:OcrTextInfo Region="290, 44, 21, 15" Text="be" />
+                              <uc:OcrTextInfo Region="313, 44, 31, 15" Text="less" />
+                              <uc:OcrTextInfo Region="346, 44, 35, 15" Text="than" />
+                              <uc:OcrTextInfo Region="383, 44, 34, 15" Text="200" />
+                              <uc:OcrTextInfo Region="223, 68, 22, 15" Text="KB" />
+                              <uc:OcrTextInfo Region="247, 68, 10, 9" Text="*" />
+                              <uc:OcrTextInfo Region="287, 132, 51, 12" Text="Browse" />
+                            </scg:List>
+                          </uc:CVCache.OcrTexts>
+                        </uc:CVCache>
+                      </scg:List>
+                    </uc:CvCacheContainer.Caches>
+                  </uc:CvCacheContainer>
+                </p:CVScope.DesignTimeCacheContainer>
+                <p:CVScope.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_5" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                  </ActivityFunc>
+                </p:CVScope.OCREngine>
+                <p:CVScope.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5b364d05-c479-44d9-8a18-7f7230b45267" InformativeScreenshot="743b2e58c457a217105f3801220ad8ff" Selector="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div' parentid='div-main' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </p:CVScope.Target>
+                <p:CVScope.UseLocalServer>
+                  <InArgument x:TypeArguments="x:Boolean" />
+                </p:CVScope.UseLocalServer>
+              </p:CVScope>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Text="E:\bls\image\BLS_DEMO.jpeg" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="201, 465, 514, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="2b42a900-e778-48e1-91c2-d5e191e0324f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgYAAAATCAYAAADru8WhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dYxEQAgEMAwZL1/Y3AsHbBAhixV0DUzGwDgWm8AAP5lDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAHDquihDQaKbpAAAAAElFTkSuQmCC" InformativeScreenshot="3110b420837c8e3d4959cb333b63a765.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="434,190" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="747, 489, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="34bb30cf-647c-48b9-882e-910567371d05" InformativeScreenshot="f08782873cbb0437fd8d826ccc2bfa6e.png" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="3e1e6e3b-1a43-4912-95ab-c5118707a18e" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="434,560" sap2010:WorkflowViewState.IdRef="CVScope_8" SendOnPremData="False" Version="V6">
+                <p:CVScope.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                      <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Understood' (367,29,100,16)&quot;]" DesignTimeCacheId="3e1e6e3b-1a43-4912-95ab-c5118707a18e" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_13" InformativeScreenshot="1e042f4fe28cc3b87b78fa7a9d2fa713" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                        <p:CvClickWithDescriptor.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </p:CvClickWithDescriptor.CursorPosition>
+                        <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                          <uc:CvDescriptor Id="e7f874d8-c2f6-42b8-beb8-e2e9d9aa2621">
+                            <uc:CvDescriptor.Target>
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="367, 29, 100, 16" ElementType="Text" Text="Understood" />
+                            </uc:CvDescriptor.Target>
+                          </uc:CvDescriptor>
+                        </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <p:CvClickWithDescriptor.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0dc75a2c-8503-4bc3-98ba-0467e5452a11">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </p:CvClickWithDescriptor.Target>
+                      </p:CvClickWithDescriptor>
+                    </Sequence>
+                  </ActivityAction>
+                </p:CVScope.Body>
+                <p:CVScope.DesignTimeCacheContainer>
+                  <uc:CvCacheContainer>
+                    <uc:CvCacheContainer.Caches>
+                      <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                        <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Understood' (Main)" Id="3e1e6e3b-1a43-4912-95ab-c5118707a18e" InformativeScreenshot="91c1085614a2d52d1ed5d5fc4a5b6f4b" LogicalPosition="735, 589" OcrText="Change Photo Understood" Position="735, 589" ScreenshotGuid="f7bdb367-ecf8-4963-91a4-ac1f5d6c1ccb" ServerVersion="0">
+                          <uc:CVCache.CvAnchorRelations>
+                            <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                          </uc:CVCache.CvAnchorRelations>
+                          <uc:CVCache.CvUiElements>
+                            <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="4">
+                              <uc:CvElementInfo Category="Button" Region="350, 14, 136, 46" />
+                              <uc:CvElementInfo Category="Button" Region="193, 15, 153, 46" />
+                            </scg:List>
+                          </uc:CVCache.CvUiElements>
+                          <uc:CVCache.OcrTexts>
+                            <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="3">
+                              <uc:OcrTextInfo Region="211, 29, 65, 19" Text="Change" />
+                              <uc:OcrTextInfo Region="277, 29, 51, 16" Text="Photo" />
+                              <uc:OcrTextInfo Region="367, 29, 100, 16" Text="Understood" />
+                            </scg:List>
+                          </uc:CVCache.OcrTexts>
+                        </uc:CVCache>
+                      </scg:List>
+                    </uc:CvCacheContainer.Caches>
+                  </uc:CvCacheContainer>
+                </p:CVScope.DesignTimeCacheContainer>
+                <p:CVScope.OCREngine>
+                  <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                    <ActivityFunc.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                    </ActivityFunc.Argument>
+                    <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_6" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                  </ActivityFunc>
+                </p:CVScope.OCREngine>
+                <p:CVScope.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f564c4be-0b18-4838-8c10-bd67e13568b3" InformativeScreenshot="7d3e3bd937cd9a04f963478c9e6d325a" Selector="&lt;webctrl class='modal-footer' parentid='photoUploadModal' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                  </ui:Target>
+                </p:CVScope.Target>
+                <p:CVScope.UseLocalServer>
+                  <InArgument x:TypeArguments="x:Boolean" />
+                </p:CVScope.UseLocalServer>
+              </p:CVScope>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,123" sap2010:WorkflowViewState.IdRef="MessageBox_15" Text="[&quot;Please enter otp select your travel date and return date then clik ok&quot;]" />
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" Version="V3">
+                <uix:NMouseScroll.SearchedElement>
+                  <uix:SearchedElement>
+                    <uix:SearchedElement.Target>
+                      <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/ApplicantSelection?data=bKMFMMEe3BGAwE%2BzjvIjZjdZVRNojbGfxsoxR9C2%2BP31YIOQExzd53jqE5ror0KsfgKSrixK7LrQAaTFaCxDswGCz2KYf5wCpgSWT8OEDCTrvXFY2ytvmCW7pEbWuP1LegNbkL5dO1OGC1q4EsmTyVZA1iwCq0TS3HfYnd0XRpr2zCubweUc79WA%2By6LmBe5rqvy4KiWn4HEYkC9QgQ44lsNEd8dI%2FaiABistB0pqvKS260JPurEVeiLWR0c26ucZOyXrARtvnGNIpEO7jC3mXuGs7yoD65C0OmexdvamyiyR4xhXD78a06pR88CND1p" DesignTimeRectangle="709, 600, 417, 138" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'KHAN HASHIM'" FullSelectorArgument="&lt;webctrl id='app-8393' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='app-8393' tag='DIV' type='' class='bls-applicant alert alert-light text-left row ml-0 no-gutters' aaname='                                                                                                      ' check:innerText='KHAN HASHIM KHAN&amp;#xD;&amp;#xA;Date Of Birth:1999-10-26&amp;#xD;&amp;#xA;Passport No:K45671238&amp;#xD;&amp;#xA;Status:OK' /&gt;" Guid="967716b2-7789-4de4-8a4e-422f3a657914" ImageBase64="" InformativeScreenshot="2b121fc92ba1b609b5546677fa55ed04.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:SearchedElement.Target>
+                    <uix:SearchedElement.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:SearchedElement.Timeout>
+                  </uix:SearchedElement>
+                </uix:NMouseScroll.SearchedElement>
+              </uix:NMouseScroll>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'KHAN HASHIM KHAN'" sap:VirtualizedContainerService.HintSize="434,190" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/ApplicantSelection?data=bKMFMMEe3BGAwE%2BzjvIjZjdZVRNojbGfxsoxR9C2%2BP31YIOQExzd53jqE5ror0KsfgKSrixK7LrQAaTFaCxDswGCz2KYf5wCpgSWT8OEDCTrvXFY2ytvmCW7pEbWuP1LegNbkL5dO1OGC1q4EsmTyVZA1iwCq0TS3HfYnd0XRpr2zCubweUc79WA%2By6LmBe5rqvy4KiWn4HEYkC9QgQ44lsNEd8dI%2FaiABistB0pqvKS260JPurEVeiLWR0c26ucZOyXrARtvnGNIpEO7jC3mXuGs7yoD65C0OmexdvamyiyR4xhXD78a06pR88CND1p" DesignTimeRectangle="726, 661, 14, 14" DesignTimeScaleFactor="1" ElementType="RadioButton" FriendlyName="'INPUT rdo-8393'" FullSelectorArgument="&lt;webctrl id='rdo-8393' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='rdo-8393' tag='INPUT' type='radio' class='rdo-applicant' aaname='' /&gt;" Guid="c4c84e42-c894-4c77-9509-b27b8ae2b6a4" InformativeScreenshot="7c722252ea00523eaf396f563b51e9bd.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="758, 618, 151, 21" ElementType="Text" FriendlyName="'KHAN HASHIM KHAN'" FullSelectorArgument="&lt;webctrl parentid='app-8393' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='app-8393' tag='SPAN' type='' class='' aaname='KHAN  HASHIM KHAN' check:innerText='KHAN HASHIM KHAN' /&gt;" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="434,190" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/ApplicantSelection?data=bKMFMMEe3BGAwE%2BzjvIjZjdZVRNojbGfxsoxR9C2%2BP31YIOQExzd53jqE5ror0KsfgKSrixK7LrQAaTFaCxDswGCz2KYf5wCpgSWT8OEDCTrvXFY2ytvmCW7pEbWuP1LegNbkL5dO1OGC1q4EsmTyVZA1iwCq0TS3HfYnd0XRpr2zCubweUc79WA%2By6LmBe5rqvy4KiWn4HEYkC9QgQ44lsNEd8dI%2FaiABistB0pqvKS260JPurEVeiLWR0c26ucZOyXrARtvnGNIpEO7jC3mXuGs7yoD65C0OmexdvamyiyR4xhXD78a06pR88CND1p" DesignTimeRectangle="871, 924, 93, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Submit'" FullSelectorArgument="&lt;webctrl id='btnSubmit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='btnSubmit' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Submit' check:innerText='Submit' /&gt;" Guid="fe8c2739-8b2a-48b6-b0ef-bd3034e582db" InformativeScreenshot="c0560c97692c144d5092d1e270812426.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accept'" sap:VirtualizedContainerService.HintSize="434,190" sap2010:WorkflowViewState.IdRef="NClick_25" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e02f8cc9-b3bd-400f-aa46-5a28a93e310b" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://egypt.blsdemo.com/Global/Appointment/Liveness?data=bKMFMMEe3BGAwE%2BzjvIjZonaA9uq7B%2BGoZ2U4Ks%2FxYfqyCFrkUO4zS%2F2xT7PPWys1jCFtRNqfxjFe31gT4PP%2F%2BP%2BD36SGVU5jnOrP3SaF04VlT5HUl6hno1FuSIixGLqJbtTJ8qtR%2BBcEeq9KbOAJCkhwpJHT5JQqZc1mC6M%2F8pnWAG8cgiulbhbbGXPGdWXP5qzYfHgUKZbVzOILbedB5QXyF6pt55PwtD%2Fwk%2BMKyJAcozTNRfnip1nDguQMpJf6uEVYFODtZ9d5n3P0%2FIFvZ2fsDDbFiagQ6AkXvbySm7pT7Z341TXJvFzKJr6Zrs8" DesignTimeRectangle="991, 545, 94, 42" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Accept'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-success' aaname='Accept' check:innerText='Accept' /&gt;" Guid="efb9397e-a1cc-42e2-944e-bd3ef9bd9cd9" InformativeScreenshot="3dfeed823a6fe8e27f2b0b3d7ce82e3c.png" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="123, 463, 1740, 26" ElementType="Text" FriendlyName="'Disclaimer'" FullSelectorArgument="&lt;webctrl parentid='liveness_form' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='liveness_form' tag='H5' type='' class='text-warning-emphasis' aaname='Disclaimer' check:innerText='Disclaimer' /&gt;" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="MessageBox_16" Text="[&quot;Automation ended please do the verification further on manual basis&quot;]" />
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Firefox" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4T6WTT0jUURDHZ+b9dJXdzIsQFQXJmkJ0qCACgw5dIoqC2GMReMiKEBX9/faP1LruuixtJ12sQ2F16tihDtJGCGmnDhlFSxcLIzXRddN1971pfmt7iW77To83M5/5zve9h1DjwhrroXbAcDzxAhj9gtrNzI/b/a3XA4GAHo6PZgF4MRJ0AlWVsdHRTmPgGTDvAsRvpPAiRkcSjAjLAJgVwCUJpIeCdt/2ORYiQdvnArLZrDX9dnaLAeYB+Q4wXCbCuxUAIYbCQTsuXcuS+1GKDouyX6LsZyRkt7uAdDrduL5R/E2Aj8Ih+2pVlQvIixGr0nlJFLSiRccig4Of/yrIC6ypmiwNxiWnWxRPSdeeIdueQzlccxNE2orMtg8J7IjjJGPxZI8cL4ecgScyioS3VyyRvGaMybh7RHW2MoJsnw+F7PPRROIoMh7pPHH84fTMOweMaYyEnOD/rlrqii7YBUyQRQ/EsVXQ+oLRlr+jbf/NT19yRQEDEXW7AGLrlYbSiBg4UU80WyybNanJYSo16V3ZzHcZpl5GtceDm1ei4VtPnWjmJaI+xYyebZA6yUYPAOpzKAMzWN/rlTqNk6l+b57Lfo+1td7VO577V+7Y2G0fFAq+GwOpH27sXjLcoRW39PePvKn48Pp+25k64AVGbrCgDAZVszYsj4rek6UKhnknGVMg0l7UjCVoKgHULSCtHtxrlWdwKnOoD5iWFKk5DaZVrC2igWZm7ZV5GwjUPCJ9lRfYYojrFesD4t1G2dAOiX2o/S/U+hv/AAaWC9XdQaiHAAAAAElFTkSuQmCC" InformativeScreenshot="e136352ddc5d92290b00ba5d5ee61361.png" Selector="&lt;html app='firefox.exe' title='Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt' /&gt;" Title="Egypt BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Egypt" Url="https://egypt.blsdemo.com/Global/home/index" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

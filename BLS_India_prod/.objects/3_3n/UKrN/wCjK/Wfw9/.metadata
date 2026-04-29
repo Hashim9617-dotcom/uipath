@@ -1,0 +1,14 @@
+﻿{
+  "Name": "I agree to receive appo…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "Wfw9is6iMEKEpDkAjICDGQ",
+  "Reference": "mLo5g0iEcEuNgRwPg57KUw/Wfw9is6iMEKEpDkAjICDGQ",
+  "ParentRef": "mLo5g0iEcEuNgRwPg57KUw/wCjK8r9aAk-18DpNCjCBIg",
+  "Created": "2026-04-27T12:37:40.0026526Z",
+  "Updated": "2026-04-27T12:37:40.0026526Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "loginkptcl2",
+  "ProjectType": "Process",
+  "Description": "this is the updated with mozilla ",
+  "MainFile": "Main.xaml"
+}

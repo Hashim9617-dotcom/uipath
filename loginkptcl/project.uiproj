@@ -1,0 +1,6 @@
+{
+  "Name": "loginkptcl2",
+  "ProjectType": "Process",
+  "Description": "login via uipath for flutter\r\n",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8N2f7WQ48EiWzEmk8XR9Mw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="india.blsspainglobal.com/Global/newcaptcha/logincaptcha" DesignTimeRectangle="1300, 703, 330, 38" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='fszqm' tag='INPUT' type='password' class='form-control entry-disabled' aaname='Password*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="40f790a5-b4ba-4826-939c-311dd14d5ff4" ScopeSelectorArgument="&lt;html app='firefox.exe' title='India BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in India' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1426, 671, 78, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Password' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Password*' /&gt;" Guid="8dca992d-7fbd-4e7b-a268-50abfd4137e1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAAAcCAYAAADyfuiHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJDSURBVGhD7Zc7jgIxDIb3KhQUHIAWiWJqTkAxEhItLRdAiI6OSyCmoOIegBAUFBRU01F7ldfEcQwzs0qzyL+0WtZxEvuL47A/IEqiH2oQ/U0CMpEEZCIJyEQSkIkkIBNJQCaSgEwkAam0m0KnO4UttbdQCPK0gkG3B53gJ4PFKfD6PjUGeYXnaAzPC7WzIENwx2X2/TBrQR7g0c/gvr5COZtDednAvZ/BY+89akECnGEx7MFgecbG71ItSKPXegy3fga30QZeZKwBSIDtpAedSaE/mwr1Vz8CrINCrcHOU9LroLF8xydh9ghtai7ei8aB99Fy67p4his42qEwDudTD7KcqSpU1TmHkow1AIkrsoAcB2x7qgZS/Y3ne3+dOEpGJWrmFZDjNex+FWit0MeAwInbOWR9DrCei/2qd6EG5H4Ot9kh/mxVCzIOGotc+w8ni6uaKqg2HcMUcsam12Vi9D7IrmMhftTH6UPcTcWADK9fcHpapjqwj79yvpqiK1+tHScSVKtKSgFXv61Nj7tDQPZQZu+qijk47+Zyvi3FgIwTdXJ9iV7DCBqCHY1VPRTtg/ZV1emvvLIxgDgY/wckB42zeUV9sRKd5yAoeD4hAzW0vY2R2jk43HV/87i1VQuQcZ9zFYp7pK/WEOR2Ej8O7CvMrE8PI+7btqXgHsyB5B6lpo9NjVqBpP1xsCyYx4bvr/SrT1TFNiF8EM4W+TZZjwWp5Pt4FeNb3+aS/7UTSUAmkoBMJAGZSAIykQRkIgnIRPoFH76VOPBFJ7cAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4e9230fa2d6a2c688386f5f61098b3d5.jpg" xmlns="">0aa1tmEaYuUyEGdfvllHBtA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
