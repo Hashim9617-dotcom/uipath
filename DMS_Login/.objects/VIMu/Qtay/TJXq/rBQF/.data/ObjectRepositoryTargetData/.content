@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Mqzk-XiX3U6HPOPQXvhQAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="synergydms.aitalkx.com" DesignTimeRectangle="201, 465, 514, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="9f47a62b-b98f-40a5-8272-79b5b2ab33c1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgYAAAATCAYAAADru8WhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABnSURBVHhe7dYxEQAgEMAwZL1/Y3AsHbBAhixV0DUzGwDgWm8AAP5lDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAGAMAIMYAAIgxAABiDACAHDquihDQaKbpAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d57b43b27ed8c4babf412d1ad9342bdb.jpg" xmlns="">0OZTFipjXvU6gGym0pyG9LQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wUr2XAiX-0GU5wqNSk8DBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="synergydms.aitalkx.com" CVScreenId="4589da78-3cf9-4ecf-8137-39a2f89fb986" CvTextArea="1362, 581, 114, 13" CvTextArgument="General Document" CvType="Text" DesignTimeRectangle="1363, 581, 113, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9a15a321-174b-43f5-81f4-6c9079fa49cf" ScopeSelectorArgument="&lt;html app='firefox.exe' title='synergydms.aitalkx.com/#/signin' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c14dbe1e1cf88f02bbeee3ad82141c18.jpg" xmlns="">0gmHLfbqgCESGm7EYqi1f8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

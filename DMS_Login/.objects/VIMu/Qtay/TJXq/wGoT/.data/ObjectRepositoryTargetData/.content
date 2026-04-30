@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w3dGW1yz4UObeq0om3Djfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="synergydms.aitalkx.com" CVScreenId="5ef945a5-3ca0-4485-922b-2ccf24efedd9" CvElementArea="1351, 676, 554, 42" CvType="InputBox" DesignTimeRectangle="1351, 677, 553, 42" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="4d110e6e-2025-4fd1-bb79-e86dd36dfdc7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='firefox.exe' title='synergydms.aitalkx.com/#/signin' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5ef945a5-3ca0-4485-922b-2ccf24efedd9" CvTextArea="1356, 656, 107, 16" CvTextArgument="Select/Dropdown" CvType="Text" DesignTimeRectangle="1356, 656, 106, 16" ElementType="Text" Guid="e09cca2f-de18-4a34-9836-5e58b3921dd7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fb7b9cc897a22078725bc96c1ecf8e6.jpg" xmlns="">0hKvQ_3bGQ0y9eaNWiV7GRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
