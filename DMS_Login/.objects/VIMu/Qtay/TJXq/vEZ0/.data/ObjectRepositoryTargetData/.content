@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vJ9zcy0v50qL9FCcpz6Ykg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="synergydms.aitalkx.com" DesignTimeRectangle="195, 457, 539, 28" ElementVisibilityArgument="Interactive" Guid="b7d6c984-d6bf-43b7-b560-ec124934289f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAhsAAAAcCAYAAADIvX0sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADoSURBVHhe7dbBDYMwFERByuJMIzRBXbRBWUQ+BEEIVkzY26w0l28X8Lq+71cAgJTu8wAA8CSxAQBEbbFhZmZmltghNj5LBADgX2IDAIgSGwBAlNgAAKIuY2NZltNnAIBWYgMAiBIbAECU2AAAosQGABAlNgCAJuM4nm61N7EBAPxsGIZ1nud1mqbTW7mVt/JnfxcbAECTb8FxFRqF2AAAmu2DoxYahdgAAG55B0ctNAqxAQDcViKjFhqF2AAAosQGABAlNgCAKLEBAERdxgYAwBPEBgAQJTYAgKhDbJiZmZk9vS02AAASXl21ldvwq0duAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="94bc7d322b27f81eda5c88a3cfe03dad.jpg" xmlns="">0HvBzJlz66kaVMvyuhbzlGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

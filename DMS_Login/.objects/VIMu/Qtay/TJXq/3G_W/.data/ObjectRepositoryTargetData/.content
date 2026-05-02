@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MlZebO-C70GOzIWORk6rQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="synergydms.aitalkx.com" DesignTimeRectangle="747, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" Guid="bc2d72fc-ee28-4a5d-90ef-c51bf133f2c4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAeCAYAAAChf3k/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHOSURBVGhD7ZmxrcIwEIbfTmmoEAVTZANokFjADQWIig5B41XcsUYmuac/iSE52yGyHIdIZ+kr7PhSfL78IPlvtVqRkI8/viBMiwjPjCN8vV7T4XCg2+1Gz+dTiODxeND5fKbtdjssHLIvlwsdj0fabDZUFIUQAdzB4f1+d6T3hKOzsZG/QIgDLtHpQeGIEelsP1pr2u12zvoQcIl4CQpH/vAioSFGOIBTER6BCM/M8oQrQ91R6dLd88MsS3gtuyJd2rWSdLUs6QsS3sg1iq2XmioypJz9v8lyhAfF4iBs1ysy+AIU9noip36HHfZdbY3+RNWUX0xX+Ov1+oqtm0d4pank673Oh7zaWLOvFswOw8aRMq3Ytsao9/rnMNLDO5wL9skG8wj3ivB0+DvjC4K/+jB63d2OWjKv4fO0cOGAi+ayQX7hozKcy+rUBA+M1/B5WnzCwZBsMINw3+fexMEnc9ncOQxfPnPBfJ6WkHAQkg3mEQ7Y//B+xzeyjOn8NHaf81j5kUgZw3zCB5lWVgoWI3zMEOHZEeECYxLhcgERJkb41wsIuWJLy9crNrlETsPoS2Qrfb/f0+l0ouv1KkSilHJke4UL0yLCMyPCM/MPluFxiyVfE+cAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='firefox.exe' appid='Mozilla.Firefox_n80bbvh6b1yt2!App' title='File Upload' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7ba31c14a5dc41fbedd0f7415626349.jpg" xmlns="">046MXmJEtOUqgMmuELOnPeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "firefox.exe File Upload",
+  "Type": "Element",
+  "Id": "vEZ0Rsb9Gk-slPe86K_6Sw",
+  "Reference": "HQCon9A2Sky48I4i7ZzPnA/vEZ0Rsb9Gk-slPe86K_6Sw",
+  "ParentRef": "HQCon9A2Sky48I4i7ZzPnA/TJXqvSM5kEWhMcFUSnxZrQ",
+  "Created": "2026-05-01T10:01:38.7743691Z",
+  "Updated": "2026-05-01T10:01:38.7743691Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

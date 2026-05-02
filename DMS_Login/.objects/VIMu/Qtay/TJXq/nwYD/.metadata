@@ -1,0 +1,13 @@
+﻿{
+  "Name": "firefox.exe synergydms.…(18)",
+  "Type": "Element",
+  "Id": "nwYD2PAyU0y3EEZKn6TtGg",
+  "Reference": "HQCon9A2Sky48I4i7ZzPnA/nwYD2PAyU0y3EEZKn6TtGg",
+  "ParentRef": "HQCon9A2Sky48I4i7ZzPnA/TJXqvSM5kEWhMcFUSnxZrQ",
+  "Created": "2026-04-30T11:19:17.8761345Z",
+  "Updated": "2026-04-30T11:19:17.8761345Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
