@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Josh1C9qY02x9gKFoRebgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kptcldmsui.aitalkx.com" DesignTimeRectangle="1012, 671, 152, 38" DesignTimeScaleFactor="1" Guid="d25fea23-068b-4141-83a3-16b554b1976a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJgAAAAmCAYAAAA4AlIkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJqSURBVHhe7dnNSxtBGMdx/zqv3rx6FMSjePKiZxW9BKVCFYMYquJbbA9iU4oEaRtb0hZC1CjRYFyzzXuiMfuUeWS3yc7aUOhzmt/CB90Zd05f9mXs6+8PEYCUPv8AwP+EwEAUAgNRCAxEITAQhcBAFAIDUQgMRCEwEIXAQBQCA1EIrIf5+Q+0uHhMAwOvusZHRt5QJJKgpaV41/jU1DseX19PaGuZCIG9QEVSKjXIParVB4pGf3jzs7Pvefz2tuyNjY5uULFY5/F4PKOtaSIEFiAc/kyO45DjEF1c3FM6fUdPT20OZ3//OTI3sHz+T2DZ7C8eu7wsaGuaCoEFsKwKhxKLpb2xzc2vPFarPfC5P7BEIsvnhUKNhocj2pqmQmA+ExNRDqXZbNHQULhrzrZrPLewcEwzM0deYHt73/n3RuORJiffamuaDIH5qBd6ddzcFLW5szOL57a2vnl3MPVuph6fyvLyiXaN6RCYz+rqJw7n/Pxem0smczx3cPDTC6zz2N1NateYDoH5uHewXK6kzaVSdzyn3sc6A7u6svmneqyqbQr/dSZDYD7j4zscS73+qO195fPPL//q/csNzLbrPHd6es3nQY9WkyGwAG5Ih4cpb8x9qa9Umnzu/4pUHwTuHljn16fpEFiAlZUTbx8skynwFkS53OR4/rYPFgp9pHbboVarTdPTR9q6JkJgL1hb++LdkdSh9r967eQragdfHZZVpcHB19q6pkFgPczNxf7pf5Hq79S4Mja2ra1nGgQGohAYiEJgIAqBgSgEBqIQGIhCYCAKgYEoBAaiEBiIQmAgCoGBKAQGon4DUD3nxM5BS7gAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='firefox.exe' title='kptcldmsui.aitalkx.com/#/signin' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0a2544be87b9e8e5c779e7e8c73dba79.png" xmlns="">030c2P9nygEW_7lKoTH18VA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

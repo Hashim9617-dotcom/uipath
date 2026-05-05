@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox kptcldmsui.aitalkx.com#bulkupload",
+  "Type": "Screen",
+  "Id": "5g_dwN26Nkav91wm8ifk5Q",
+  "Reference": "5oM30KXZcUmnzWYIH_5VxA/5g_dwN26Nkav91wm8ifk5Q",
+  "ParentRef": "5oM30KXZcUmnzWYIH_5VxA/2rLKDXyvFU6GFXNAQIwFUw",
+  "Created": "2026-05-05T10:00:15.418923Z",
+  "Updated": "2026-05-05T10:00:15.418923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

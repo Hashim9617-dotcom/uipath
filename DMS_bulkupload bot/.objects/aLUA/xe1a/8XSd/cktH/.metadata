@@ -1,0 +1,13 @@
+﻿{
+  "Name": "firefox.exe kptcldmsui.…(3)",
+  "Type": "Element",
+  "Id": "cktHxp14ME2fGgJV0ayewg",
+  "Reference": "zdNeaLEpOk68Y5dpM2armA/cktHxp14ME2fGgJV0ayewg",
+  "ParentRef": "zdNeaLEpOk68Y5dpM2armA/8XSdSSfAbUW6GNy2gq4vpQ",
+  "Created": "2026-05-04T10:08:45.7926779Z",
+  "Updated": "2026-05-04T10:08:45.7926779Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

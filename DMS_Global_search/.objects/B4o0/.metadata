@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox kptcldmsui.aitalkx.com#bulkupload",
+  "Type": "App",
+  "Id": "B4o0029d1Uinjjm_SrRZVw",
+  "Reference": "5oM30KXZcUmnzWYIH_5VxA/B4o0029d1Uinjjm_SrRZVw",
+  "Created": "2026-05-05T10:00:15.3566131Z",
+  "Updated": "2026-05-05T10:00:15.3566131Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox kptcldmsui.aitalkx.com",
+  "Type": "App",
+  "Id": "aLUAuYTc9Eaak6XqbqTZBw",
+  "Reference": "zdNeaLEpOk68Y5dpM2armA/aLUAuYTc9Eaak6XqbqTZBw",
+  "Created": "2026-05-04T09:58:26.6419911Z",
+  "Updated": "2026-05-04T09:58:26.6419911Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
