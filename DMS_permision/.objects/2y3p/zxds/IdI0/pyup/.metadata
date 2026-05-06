@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Reports",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "pyup7Nfw9ESGlTVQKH0ypg",
+  "Reference": "30YZ70K4rUqVJpx0ej_vqQ/pyup7Nfw9ESGlTVQKH0ypg",
+  "ParentRef": "30YZ70K4rUqVJpx0ej_vqQ/IdI0-c0GzEqVuPorAyHMMA",
+  "Created": "2026-05-06T05:25:15.9453248Z",
+  "Updated": "2026-05-06T05:25:15.9453248Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Dashboard",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "kz5c-ssFwk2PUByxGzwh2A",
+  "Reference": "30YZ70K4rUqVJpx0ej_vqQ/kz5c-ssFwk2PUByxGzwh2A",
+  "ParentRef": "30YZ70K4rUqVJpx0ej_vqQ/IdI0-c0GzEqVuPorAyHMMA",
+  "Created": "2026-05-06T05:26:07.4876765Z",
+  "Updated": "2026-05-06T05:26:07.4876765Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

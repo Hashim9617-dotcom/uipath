@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AXsH5SA3GUapaPnCyAUFhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kptcldmsui.aitalkx.com" CVScreenId="64564970-8d6b-4b39-a2ba-a46d69cb6e46" CvElementArea="564, 479, 22, 22" CvType="CheckBox" DesignTimeRectangle="564, 479, 21, 21" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="9d755158-1bc6-4d67-819b-544acd6053fa" ScopeSelectorArgument="&lt;html app='firefox.exe' title='kptcldmsui.aitalkx.com/' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="64564970-8d6b-4b39-a2ba-a46d69cb6e46" CvTextArea="622, 483, 56, 18" CvTextArgument="Reports" CvType="Text" DesignTimeRectangle="622, 483, 56, 18" ElementType="Text" Guid="164dc611-d584-46ee-8214-01d5caf0c769" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e2e6fed5842a6b3332b9a9e714e5335c.png" xmlns="">0e73hNFfqG0SPWCNOI9X7Cg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

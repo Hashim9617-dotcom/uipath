@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Files",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "XAxssxfPC06Iv6wjNQ1qdw",
+  "Reference": "30YZ70K4rUqVJpx0ej_vqQ/XAxssxfPC06Iv6wjNQ1qdw",
+  "ParentRef": "30YZ70K4rUqVJpx0ej_vqQ/IdI0-c0GzEqVuPorAyHMMA",
+  "Created": "2026-05-06T05:22:30.312533Z",
+  "Updated": "2026-05-06T05:22:30.312533Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

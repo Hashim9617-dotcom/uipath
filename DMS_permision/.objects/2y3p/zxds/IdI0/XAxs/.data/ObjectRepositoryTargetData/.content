@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Hp423Ja_U63-XKKsDdw8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kptcldmsui.aitalkx.com" CVScreenId="9fa7ae2e-6369-4be6-818b-e4a39f2c9b90" CvElementArea="564, 551, 22, 22" CvType="CheckBox" DesignTimeRectangle="564, 551, 21, 21" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="a541d9d7-29d0-4045-b2d2-bad48c66defd" ScopeSelectorArgument="&lt;html app='firefox.exe' title='kptcldmsui.aitalkx.com/' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9fa7ae2e-6369-4be6-818b-e4a39f2c9b90" CvTextArea="622, 554, 35, 16" CvTextArgument="Files" CvType="Text" DesignTimeRectangle="622, 554, 35, 16" ElementType="Text" Guid="99703573-72d2-4788-b6cb-cc474353ab87" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target DesignTimeRectangle="553, 530, 128, 53" Guid="47d30d7c-7875-41e3-abd4-3a40d4e1d501" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAA1CAYAAACJOeMNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO/SURBVHhe7ZrpTxNREMD9g8XEAwgiIJcR8EBiEAynKG1sCeEs0FpuuZFLlKMVKMpVCkK5/DJmhmwj++hKF7cBZz78EnZn3myT99t983a5cXzyCwS+3NCfEHghAjBHBGCOCMAcEYA5IgBzRADmiADMEQGYIwIwRwRgjgjAHBGAOSIAc0QA5ogAzBEBmCMCMEcEYI4IwBwRgDkiAHNMC9A3MALV9jrT4Hh9TSH+mBJgdGIacgqKoPfjsGlwPNbR1xbiiykBGl1uQn8+FszWCG6HwOv1gsvVdoa2tnbYCm4r+YIx104At9sNFRUV52Kz2WBzK6iMMUtoZxdmvy6cy7zvWyRnbWOL/t7bD8PE9CzMLfiVWleVayeAw+FQJv6i2O128PkvPjljkzNwMzHtXNJyn1DO/aw8uJeWAxtb2xD4vk6x/KISpdZVhZUASFNzs1IzGpoA2fkvoLHNcwZPVx/l1Dob4HVVLeyHD0SAWDBb47ICOJ1OpWY0NAFKK98pMY35RT8tCUfHJ4YCbId2wPdtBcIHh0oMwWXEv7wKh0fHSsxKRAADLiJASmYe5UR7Aqz+2IDHhcWRpeNuajb0DY5G4ijFo6cvI/GkjEfQ3T+kXMcqRAADNAGeFZcpTeBe+IByNAGwAdQLsLu3T73C7ZRMqKx1gL2uifITEtPAvxygnAc5BTQGlxGbs5EEwPjy6g/l91iBCGCAURO4srpGOUYC9PQP0XHZG1tEHGeDi87VN7fTcpCQlE5NZDAUojH4gux5cTmMT35Wfo8ViAAGGDWBuP3DHCMB3te3KOJolNfYKQeXFzy+lZwBRaVV0O7tiWsfIAIYEEsPYCTAq/IaRaDB0QnKOTg8gtGJGaiyOSH54WPKx2VjM3j6RLAaEcCAywrQ2TtAx7j+a/m4W3B5uugun1vw0ePe9aErEnvrqKcxre5O5VpWIAIYcFkBcOuHTR2ewzsc73yM4fHQ2CSsbwap4buTmn36ZHB5IDU7n+Ijn6aUa1nBtROgo6NDmdRY8Hg8Ss1oaAJgh66PafxtG4ivhbPyC+k8kpieC+3e7kh8eHyKtoZaHCmpeEtPA/21rODaCYAfg3ASW1paYwbH4Xh9zWho3wKWA9G3ZH++CIr2LQBjpy96AudO7M+9MHyZW6Q6vqUVJW4l5gVojX3yztRoNSeA8G8xJcC8b4n2r9V2p2lwPNbR1xbiiykBkMD3NeWfPGIBx+trCvHHtADC/4EIwBwRgDkiAHNEAOaIAMwRAZgjAjBHBGCOCMAcEYA5vwEYmYqYM+abEQAAAABJRU5ErkJggg==" SearchSteps="Image" TargetType="ImageBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a988eff2c8dea7c78c24aa3b5c5d0f6a.png" xmlns="">0PdoiuJcCHUmda8TYoADOWg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox kptcldmsui.aitalkx.com",
+  "Type": "Screen",
+  "Id": "MuKBHYfbxEKHv0CjO6JT-g",
+  "Reference": "I795YF1XU0a-aSthZ98VHw/MuKBHYfbxEKHv0CjO6JT-g",
+  "ParentRef": "I795YF1XU0a-aSthZ98VHw/rNf61giF60i8JGbpXR2g4g",
+  "Created": "2026-05-05T11:26:41.0482857Z",
+  "Updated": "2026-05-05T11:26:41.0482857Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
