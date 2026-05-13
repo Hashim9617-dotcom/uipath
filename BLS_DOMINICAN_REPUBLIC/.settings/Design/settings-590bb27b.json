@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿{
   "DefaultAppCardOCREngine": "Embedded OCR"
+=======
+﻿{
+  "DefaultAppCardOCREngine": "Embedded OCR"
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 }

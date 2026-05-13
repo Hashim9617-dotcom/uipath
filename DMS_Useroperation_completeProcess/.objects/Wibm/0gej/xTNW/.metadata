@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox synergy",
+  "Type": "Screen",
+  "Id": "xTNWRpIkz0-beiFjpYLlew",
+  "Reference": "YaOUVHDwKUWVDnGYA3PQnA/xTNWRpIkz0-beiFjpYLlew",
+  "ParentRef": "YaOUVHDwKUWVDnGYA3PQnA/0gejYXzGIUy4TfgWCRF99Q",
+  "Created": "2026-05-13T08:49:51.6033955Z",
+  "Updated": "2026-05-13T08:49:51.6033955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

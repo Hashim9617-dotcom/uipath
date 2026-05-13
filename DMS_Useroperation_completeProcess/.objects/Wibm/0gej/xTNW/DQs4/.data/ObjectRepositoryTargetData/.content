@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7mXKWYb8Pk6B77H58cucvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="kptcldmsui.aitalkx.com/signin" DesignTimeRectangle="58, 93, 1870, 906" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='FLUTTER-VIEW' type='' class='' aaname='' check:text='testerflutter-view flt-scene-host {  font: normal normal 14px sans-serif;}flutter-view flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}flutter-view input::selection {  background-color: transparent;}flutter-view textarea::selection {  background-color: transparent;}flutter-view flt-semantics input,flutter-view flt-semantics textarea,flutter-view flt-semantics [contentEditable=&amp;quot;true&amp;quot;] {  caret-color: transparent;}flutter-view .flt-text-editing::placeholder {  opacity: 0;}flutter-view:focus { outline: rgb(0, 0, 0) none 0px;}flutter-view flt-paragraph,flutter-view flt-span {  line-height: 100%;}' /&gt;" Guid="ea43ebcd-a825-4c3c-a805-5e34a2cee719" ScopeSelectorArgument="&lt;html app='firefox.exe' title='synergy' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b642827251f2171a32d162790b5000b0.png" xmlns="">0yFc-FarZyUiyqz0ASygYwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

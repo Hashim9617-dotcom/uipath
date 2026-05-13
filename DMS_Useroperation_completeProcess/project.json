@@ -1,0 +1,62 @@
+{
+  "name": "DMS_Useroperation_completeProcess",
+  "projectId": "6760dbce-7a07-49ba-89f1-bb24bf5f9665",
+  "description": "This bot will login the software and create user roles then create a user and then provide the roles to the user , then login from the user id and then check for the permisson. after that create a tester group and assign t user and assign the permission for the group and validate that he flow is working fine ",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.4]",
+    "UiPath.Mail.Activities": "[1.24.2]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.8.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "cb1a8927-0f84-490c-9b22-4ec1b76a28e7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

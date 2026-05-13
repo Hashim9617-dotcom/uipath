@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Workflows": [
     {
@@ -20,4 +21,28 @@
       "AddedNamespaces": null
     }
   ]
+=======
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "mailList&Sequence_1",
+        "otp&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 }

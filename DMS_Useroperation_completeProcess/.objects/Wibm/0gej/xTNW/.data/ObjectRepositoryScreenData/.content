@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="jPvEOVZXpESsDk5Nh6g_Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Firefox" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABuElEQVQ4T32TsUsCYRjGn+/OOzFMDcyScEiowaCQhmiy2oXCoalVWoJqiYaWBsdqqD+gf6KhJVEQI9OCpiQKIszBoCHU/O7s/cyrU0+/yTvf3/M+7/O9x5p0MOCY/2Wst5ANEhBwN9T9rq+ATrBEHXNlDfkPHeLZawdWJxXYpH8nlgIGfF3SsFVsoKABUZXhbE6B3ynB7KJHwICzBO8S7CYb09T5cFaF285aToQz43QImDvvtOGAAiQI9joYGjqgmOwLkT8Bw5awvU2wh9pMEHwcVjFM9vudloABp9849p54Cx63AafzKjh1fahosMsMnOyHRyWo9LtjBEMgRQKRR474EMMJwXUOxPPfuKg18UVwJqRg0S8PDjFb4pjyyJCpxVKqCp9DgluVcRBkmPXZILbOPJBliDXyOnNZxSeTUdE0JEM6IkEnGpoORe5Mse81Xr1wrNzXgUIGm/UyEvsxjLgc0OmqJNM9Wm9iO5Tk3SuWo+fAuwP+dQ9uj2Lw+zyUQZNW/HcQSwExpyiSqCh9U0Qq9wxO9gNjLmysLUCxUZDtLAZ/TF2BiY56W9hyE62WRQBG6oZtc90PYs7h0VrFm/AAAAAASUVORK5CYII=" Selector="&lt;html app='firefox.exe' title='synergy' /&gt;" Title="synergy" Url="https://kptcldmsui.aitalkx.com/signin" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="29aef265016193bc3dc6f659c3ee7a14.png" xmlns="">08HJ16fl2iUe6bUxkLt2W8Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

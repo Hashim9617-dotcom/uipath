@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -362,4 +363,370 @@
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
+=======
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,2389" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Firefox UK BLS Spain Visa Welcome to the Offi" sap:VirtualizedContainerService.HintSize="502,2366" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,2126" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="11e6c19a-a5d8-4c31-9be5-4733a7024888" DisplayName="CV Screen Scope 'DIV'" sap:VirtualizedContainerService.HintSize="434,558" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (678,11,32,32)&quot;]" DesignTimeCacheId="11e6c19a-a5d8-4c31-9be5-4733a7024888" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,208" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="6473107f09896938c1c712ec5e8e12d0" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                      <p:CvClickWithDescriptor.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </p:CvClickWithDescriptor.CursorPosition>
+                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="b69d79ae-7d49-4bd3-9808-b5b8dd8d13cf">
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="678, 11, 32, 32" ElementType="CloseButton" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                      <p:CvClickWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ce130238-e5d4-425f-9fe8-a1a4fa0d5661">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvClickWithDescriptor.Target>
+                    </p:CvClickWithDescriptor>
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DataSent="False" DisplayName="Screen CV Click - CloseButton (Main)" Id="11e6c19a-a5d8-4c31-9be5-4733a7024888" InformativeScreenshot="7e53dfb726a579c7c6f2c74862f4aabb" LogicalPosition="585, 442" OcrText="SCAM ALERT X" Position="585, 442" ScreenshotGuid="e697b738-d451-4b9d-bc83-fdffc7d4cb1b" ServerVersion="24.10">
+                        <uc:CVCache.CvAnchorRelations>
+                          <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="1">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>0</x:Int32>
+                                  <x:Int32>1</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                          </scg:List>
+                        </uc:CVCache.CvAnchorRelations>
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="8">
+                            <uc:CvElementInfo Category="CloseButton" Region="678, 11, 32, 32" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="0, 0, 720, 56" />
+                            <uc:CvElementInfo Category="Icon" Confidence="Runtime" Region="680, 11, 31, 30" />
+                            <uc:CvElementInfo Category="InputBox" Region="0, 0, 720, 56" />
+                            <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="677, 10, 33, 33" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                        <uc:CVCache.OcrTexts>
+                          <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="3">
+                            <uc:OcrTextInfo Region="14, 20, 51, 16" Text="SCAM" />
+                            <uc:OcrTextInfo Region="65, 20, 52, 16" Text="ALERT" />
+                            <uc:OcrTextInfo Region="685, 17, 20, 21" Text="X" />
+                          </scg:List>
+                        </uc:CVCache.OcrTexts>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_1" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="07a298e9-e283-4bc3-b883-53173ca2e0ff" InformativeScreenshot="93d8c955acf0bcac3e0b1ec75832f2cf" Selector="&lt;webctrl class='modal-header' parentid='scamAlert' tag='DIV' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+              <p:CVScope.UseLocalServer>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </p:CVScope.UseLocalServer>
+            </p:CVScope>
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="eecd68fc-3025-4c51-8b07-2890a4092676" DisplayName="CV Screen Scope 'SPAN'" sap:VirtualizedContainerService.HintSize="434,558" sap2010:WorkflowViewState.IdRef="CVScope_3" SendOnPremData="False" Version="V6">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Login' (27,9,39,18)&quot;]" DesignTimeCacheId="eecd68fc-3025-4c51-8b07-2890a4092676" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,208" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_2" InformativeScreenshot="09b7cf98852bce6dd598ca356ac46daa" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                      <p:CvClickWithDescriptor.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </p:CvClickWithDescriptor.CursorPosition>
+                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="e79e4383-9ed9-4cc6-afc5-2d9d8e1f14b0">
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="27, 9, 39, 18" ElementType="Text" Text="Login" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                      <p:CvClickWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="f442518a-ab7d-4778-801c-79f0fbcacc54">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvClickWithDescriptor.Target>
+                    </p:CvClickWithDescriptor>
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DataSent="False" DisplayName="Screen CV Click - 'Login' (Main)" Id="eecd68fc-3025-4c51-8b07-2890a4092676" InformativeScreenshot="b4e55e393468416679686bb9a50c78ba" LogicalPosition="1477, 122" OcrText="Login" Position="1477, 122" ScreenshotGuid="39007631-c2f7-4db3-aaff-02c9a9ab8e37" ServerVersion="24.10">
+                        <uc:CVCache.CvAnchorRelations>
+                          <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="0" />
+                        </uc:CVCache.CvAnchorRelations>
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="4">
+                            <uc:CvElementInfo Category="Icon" Region="5, 6, 19, 20" />
+                            <uc:CvElementInfo Category="Button" Region="0, 0, 73, 34" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                        <uc:CVCache.OcrTexts>
+                          <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="1">
+                            <uc:OcrTextInfo Region="27, 9, 39, 18" Text="Login" />
+                          </scg:List>
+                        </uc:CVCache.OcrTexts>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_2" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="06f2058a-8e29-48e5-8b5d-841b38f12c39" InformativeScreenshot="47ea4a6bacd9899b07582eb062f74b77" Selector="&lt;webctrl aaname='Login' tag='SPAN' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+              <p:CVScope.UseLocalServer>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </p:CVScope.UseLocalServer>
+            </p:CVScope>
+            <uix:NSetText DisplayName="Set Text 'Email*'" sap:VirtualizedContainerService.HintSize="434,194" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Text="lokeshanand861@gmail.com" Version="V4">
+              <uix:NSetText.Target>
+                <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" ContentHash="eLnvw491HUu5hRN1NsrIXg" CvElementArea="545, 445, 417, 41" CvType="InputBox" DesignTimeRectangle="547, 447, 415, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserId10' tag='INPUT' type='text' class='form-control entry-disabled' aaname='Email*' /&gt;" Guid="0c207d0f-f629-411c-a914-40722ff1ac2f" InformativeScreenshot="100262a2be8b08a89dd66909fd5b1282.png" IsResponsive="True" Reference="2InKtPWaUUKYWugxVQqIig/yxMSYxKUs0ukSb0zzQLdNw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 418, 54, 16" CvTextArgument="Email *" CvType="Text" DesignTimeRectangle="547, 415, 52, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='form-label' aaname='Email' check:innerText='Email*' /&gt;" Guid="3de29e23-a4ef-4b1e-83b2-aa1ff02f4ce4" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSetText.Target>
+            </uix:NSetText>
+            <uix:NSetText DisplayName="Set Text 'Password*'" sap:VirtualizedContainerService.HintSize="434,194" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Text="!Welcome123" Version="V4">
+              <uix:NSetText.Target>
+                <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" ContentHash="jtit99JFSUqkjv9GdTqceg" DesignTimeRectangle="547, 533, 415, 42" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password1' tag='INPUT' type='password' class='form-control fakepassword entry-disabled' aaname='Password*' /&gt;" Guid="589c0005-e72f-4bd7-a3d3-10761bab6f56" InformativeScreenshot="80f847d7fd999fc33228304f53d878c9.png" Reference="2InKtPWaUUKYWugxVQqIig/TsJ8BU-dRk2_Vn04CEiciQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" CvTextArea="545, 504, 85, 15" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="547, 501, 83, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='form-label' check:innerText='Password*' /&gt;" Guid="10e2c00a-bdc8-418d-ac4d-97def0d20309" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSetText.Target>
+            </uix:NSetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Verify'" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="7808a0a9-7f8a-4bbf-ab08-59b96d30e578" ContentHash="EHeRlLislEWpy0o8rYl0qg" CvElementArea="709, 644, 89, 46" CvTextArea="727, 659, 53, 19" CvTextArgument="Verify" CvType="Button" DesignTimeRectangle="712, 647, 84, 42" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnVerify' tag='BUTTON' type='button' class='btn btn-primary-soft' aaname='Verify' check:innerText='Verify' /&gt;" Guid="2e7d8325-203c-449f-ad42-edfb0cc20b33" InformativeScreenshot="056fb2d80a6bc3377393bd77b3fd113a.png" Reference="2InKtPWaUUKYWugxVQqIig/wwaPOEquYk2TTXfzTbIPeQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Enter captha then press ok&quot;]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I submit'" sap:VirtualizedContainerService.HintSize="434,218" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6e067387-25cc-4bbe-b75b-b7fdd23b1a1f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="uk.blsspainglobal.com/Global/account/login" CVScreenId="ccc57498-3a6a-48dd-9e17-a1b037c40c2a" ContentHash="ycnxt-6r0EKdzecoxiTNww" CvElementArea="711, 738, 31, 26" CvType="Icon" DesignTimeRectangle="711, 735, 32, 32" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl src='/Global/CaptchaPublic/GenerateCaptcha?data=EjbTTcRnoU1XGHohrQ92%2fJ5ENM5DOusHPu3wR67c%2fvS%2bLCQXP77jBOULEzPLbJqU0D6Q80xq1vhdysAjNKEsUyZ3rnDqHXxoblaE0PWg4Ak%3d' tag='IFRAME' /&gt;&lt;webctrl id='submit' tag='I' type='' class='fa fa-check p-1 img-action img-active' aaname='' /&gt;" Guid="1db56295-6a66-4f28-b589-be0c150efabb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVFhH7dQxDoIwFMbxnkYHXfU0Jh7CxJgYBxcHBw+jgx7GA5BOyqQDPPPFBQr0tfAQhzf8F/oCv5S0hl53+qeM+2DoFMSlIC4FcSmI6zegNKHr8Umnc0Jvd82pf1BqaT0iMgZltLzUzBTqF1TCDA1KLW0neQFDNF7ZgX5ZSwySB3XAID8o4nR857thkBd0W2ThLxbAoGCQMTlNNw0fEMIgL6h6bGtQghjkByEfKrV0mBV3sRsG8SBUQWU03z1oL4xBYSBUQZWTwKBwEGpASWFQHAg5KEkMigeh2AszonagHlMQl4K4FMSlIK6/A30Ab7a8xiVN/+MAAAAASUVORK5CYII=" InformativeScreenshot="42f494c51c9a1b8b02fa3014527cbe04.png" Reference="2InKtPWaUUKYWugxVQqIig/k0bhjrhaaE-Mn14rX9COJg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Firefox" ContentHash="EW01gm_HEES_PUjDwP7lgg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACT0lEQVQ4T6WTT0jUURDHZ+b9dJXdzIsQFQXJmkJ0qCACgw5dIoqC2GMReMiKEBX9/faP1LruuixtJ12sQ2F16tihDtJGCGmnDhlFSxcLIzXRddN1971pfmt7iW77To83M5/5zve9h1DjwhrroXbAcDzxAhj9gtrNzI/b/a3XA4GAHo6PZgF4MRJ0AlWVsdHRTmPgGTDvAsRvpPAiRkcSjAjLAJgVwCUJpIeCdt/2ORYiQdvnArLZrDX9dnaLAeYB+Q4wXCbCuxUAIYbCQTsuXcuS+1GKDouyX6LsZyRkt7uAdDrduL5R/E2Aj8Ih+2pVlQvIixGr0nlJFLSiRccig4Of/yrIC6ypmiwNxiWnWxRPSdeeIdueQzlccxNE2orMtg8J7IjjJGPxZI8cL4ecgScyioS3VyyRvGaMybh7RHW2MoJsnw+F7PPRROIoMh7pPHH84fTMOweMaYyEnOD/rlrqii7YBUyQRQ/EsVXQ+oLRlr+jbf/NT19yRQEDEXW7AGLrlYbSiBg4UU80WyybNanJYSo16V3ZzHcZpl5GtceDm1ei4VtPnWjmJaI+xYyebZA6yUYPAOpzKAMzWN/rlTqNk6l+b57Lfo+1td7VO577V+7Y2G0fFAq+GwOpH27sXjLcoRW39PePvKn48Pp+25k64AVGbrCgDAZVszYsj4rek6UKhnknGVMg0l7UjCVoKgHULSCtHtxrlWdwKnOoD5iWFKk5DaZVrC2igWZm7ZV5GwjUPCJ9lRfYYojrFesD4t1G2dAOiX2o/S/U+hv/AAaWC9XdQaiHAAAAAElFTkSuQmCC" InformativeScreenshot="3c694d0047afe7ecc60d1355e05c187f.png" Reference="2InKtPWaUUKYWugxVQqIig/3knE9JpI1UepWfKyrtBDSw" Selector="&lt;html app='firefox.exe' title='UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK' /&gt;" Title="UK BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in UK" Url="https://uk.blsspainglobal.com/Global/home/index" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 </Activity>

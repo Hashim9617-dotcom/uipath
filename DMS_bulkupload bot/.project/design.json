@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
   "Tags": [],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
+=======
+{
+  "Tags": [],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 }

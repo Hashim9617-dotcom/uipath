@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "DMS_Global_search",
   "projectId": "a0951f73-2dfd-49fd-b1f4-b08531b8a490",
@@ -59,4 +60,67 @@
   "templateProjectData": {},
   "publishData": {},
   "targetFramework": "Windows"
+=======
+{
+  "name": "DMS_Global_search",
+  "projectId": "a0951f73-2dfd-49fd-b1f4-b08531b8a490",
+  "description": "This is a search document global upload automation bot \r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.4]",
+    "UiPath.Mail.Activities": "[1.24.2]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.8.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b09a6876-fd30-4af2-95aa-7adbdc4e6057",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 }

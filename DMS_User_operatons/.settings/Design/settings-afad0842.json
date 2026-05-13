@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿{
   "UiPath.Excel.Activities.ShowModernActivities": "UseGlobalSetting"
+=======
+﻿{
+  "UiPath.Excel.Activities.ShowModernActivities": "UseGlobalSetting"
+>>>>>>> 458fc8c (Initial commit - UiPath automation project)
 }
